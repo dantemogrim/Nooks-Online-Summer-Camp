@@ -13,6 +13,7 @@ Our idea is to create an event based off of Tom Nook's company and the static me
 We are thinking K.K. will be there to throw a concert and a selected few will recieve QR invitations and goodie bags etc.
 
 <details><summary> :love_letter: <b> Project requirements:</b></summary>
+  
 - Create a landing page that follows the same graphical style as the chosen company.
 - The site has to be mobile first and follow the [WCAG](https://www.a11yproject.com/checklist/) standard.
 - The site should have at least five animations of which one has to be a so called "in animation".
