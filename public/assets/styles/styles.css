@@ -1,0 +1,11 @@
+/* Variables for colors. */
+
+:root {
+	--bgColor: teal;
+	--headerFooterColor: mediumpurple;
+	--textColors: black;
+}
+
+body {
+	background-color: var(--bgColor);
+}
