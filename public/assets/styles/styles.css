@@ -27,10 +27,27 @@
 
 body {
 	background-color: var(--color1);
+	display: flex;
+	flex-direction: column;
+}
+
+header,
+footer {
+	display: flex;
+	background-color: var(--color3);
+	flex-direction: column;
+	align-items: center;
+	padding: 2%;
+	margin: 2%;
+}
+
+main {
+	display: flex;
+	background-color: var(--color4);
+	margin: 2%;
 }
 
 .header-img {
 	display: flex;
-	justify-content: center;
 	width: 50%;
 }

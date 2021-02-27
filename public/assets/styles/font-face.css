@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Fink Heavy Medium';
+	src: url('/public/assets/fonts/FinkHeavyMedium.otf');
+}
+
+* {
+	font-family: 'Fink Heavy Medium', Verdana, Arial, Helvetica, sans-serif;
+}
