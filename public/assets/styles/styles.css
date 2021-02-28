@@ -26,32 +26,44 @@
 }
 
 body {
-	background-color: var(--color1);
+	background-color: var(--color3);
 	display: flex;
 	flex-direction: column;
 }
 
 header,
 footer {
-	display: flex;
-	background-color: var(--color3);
 	align-items: center;
-	justify-content: space-evenly;
+	background-color: var(--color2);
 	border-radius: 7px;
-	padding: 2%;
+	display: flex;
+	justify-content: space-evenly;
 	margin: 2%;
+	padding: 2%;
 }
 
 main {
+	align-content: center;
+	background-color: var(--color1);
+	border-radius: 7px;
 	display: flex;
-	background-color: var(--color4);
+	flex-direction: column;
+	justify-content: center;
 	margin: 2%;
 	padding: 2%;
-	border-radius: 7px;
+}
+
+.info-container {
+	background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
+	display: flex;
 }
 
 section {
 	border-radius: 7px;
-	padding: 2%;
 	margin: 2%;
+	padding: 2%;
+}
+
+.cta-area {
+	background-color: var(--color4);
 }
