@@ -32,6 +32,8 @@ We are thinking K.K. will be there to throw a concert and a selected few will re
 
 _Opt 1:_ See the project hosted live on [this link](https://event-invitation.netlify.app/).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cafdded0-d687-45e1-9e15-568bd5528825/deploy-status)](https://app.netlify.com/sites/event-invitation/deploys)
+
 ## :computer: Testers
 
 - [Person 1](https://github.com/mogrim-91)
