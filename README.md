@@ -3,6 +3,7 @@
 <img src="https://media.giphy.com/media/h8ISB2nUVITEWjVgGo/giphy.gif"  width="75%">
 
 ## :shipit: Mission
+
 This is a group assignment where my Web Dev class have been coupled with the IP Graphical Production & Form class.
 Our mission is to create an event invitation that communicates with targeted visitors through multiple channels.
 We get to decide ourselves which company/organization and what kind of event to create.
@@ -29,6 +30,8 @@ We are thinking K.K. will be there to throw a concert and a selected few will re
 
 ## :octocat: Instructions
 
+_Opt 1:_ See the project hosted live on [this link](https://event-invitation.netlify.app/).
+
 ## :computer: Testers
 
 - [Person 1](https://github.com/mogrim-91)
@@ -51,6 +54,7 @@ By [Person 3](https://github.com/mogrim-91)
   > "Comment" - Person 3
 
 ## :man_technologist: Creators
+
 - [Dante Mogrim](https://github.com/mogrim-91)
 - Josefin Eldh (IP Graphical Production & Form)
 
