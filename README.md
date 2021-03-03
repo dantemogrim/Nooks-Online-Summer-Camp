@@ -58,7 +58,7 @@ By [Person 3](https://github.com/mogrim-91)
 ## :man_technologist: Creators
 
 - [Dante Mogrim](https://github.com/mogrim-91)
-- Josefin Eldh (IP Graphical Production & Form)
+- [Josefin Eldh (IP20)](https://josefineldh.com)
 
 ## :fleur_de_lis: License
 
