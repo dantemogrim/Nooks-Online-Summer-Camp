@@ -9,6 +9,11 @@
 		<link rel="stylesheet" href="/public/assets/styles/font-face.css" />
 		<link rel="stylesheet" href="/public/assets/styles/media-queries.css" />
 		<link rel="stylesheet" href="/public/assets/styles/styles.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Event Invitation</title>
 	</head>
 	<body>
@@ -24,28 +29,25 @@
 		</header>
 		<main>
 			<div class="info-container">
+				<p class="info-text">Personified name!</p>
 				<p class="info-text">Welcome to our biggest event of 2021!</p>
 			</div>
 			<section>
+				Information about the event:
+				<span class="test"
+					>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+					minima possimus! Debitis accusantium veritatis voluptate! Unde quos
+					possimus tempora doloribus vitae sit impedit beatae laborum! Autem
+					tenetur nulla sequi tempora.</span
+				>
 				<img
 					class="tom-wave"
 					src="public/assets/img/tom-wave.png"
 					loading="lazy"
 				/>
 			</section>
-			<div class="cta-area">
-				<form>
-					<p>
-						To participate in the event, register your e-mail and receive a
-						personal invitation:
-					</p>
-					<br />
-					<label for="email">e-mail:</label>
-					<input type="email" id="email" name="email" />
-					<button type="submit">Register</button>
-				</form>
-			</div>
-			<section>
+
+			<!-- <section>
 				<img
 					class="tom-money"
 					src="public/assets/img/tom-nook.png"
@@ -53,11 +55,33 @@
 					name="anime"
 					id="anime"
 				/>
-			</section>
+			</section> -->
+			<div class="cta-area">
+				<form>
+					<p class="test">
+						To participate in the event, register your e-mail and receive a
+						personal invitation:
+					</p>
+					<br />
+					<label for="email">e-mail:</label>
+					<input type="email" id="email" name="email" />
+					<button type="submit">Register</button>
+					<br />
+					<label for="email">e-mail:</label>
+					<input type="email" id="email" name="email" />
+					<button type="submit">Register</button>
+					<br />
+					<label for="email">e-mail:</label>
+					<input type="email" id="email" name="email" />
+					<button type="submit">Register</button>
+				</form>
+			</div>
+
+			Questions? Please contact
 		</main>
 
 		<footer>
-			<p>© Dante Mogrim WU20 + Josefin Eldh IP-GPF20</p>
+			<p>© Dante Mogrim WU20 + Josefin Eldh IP20</p>
 			<img class="nintendo-seal" src="/public/assets/img/nintendo-seal.png" />
 		</footer>
 		<script type="module" src="public/assets/scripts/app.js"></script>

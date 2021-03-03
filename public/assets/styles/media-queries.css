@@ -39,6 +39,10 @@
 		width: 250px;
 	}
 
+	.tom-money {
+		width: 250px;
+	}
+
 	.nintendo-seal {
 		width: 100px;
 	}
@@ -47,6 +51,13 @@
 		display: flex;
 		padding: 3%;
 		border-radius: 5px;
+		justify-content: center;
+	}
+
+	label,
+	button,
+	input {
+		margin: 1%;
 	}
 }
 
@@ -89,14 +100,24 @@
 		width: 250px;
 	}
 
+	.tom-money {
+		width: 250px;
+	}
+
 	.nintendo-seal {
 		width: 100px;
 	}
 
 	.cta-area {
 		display: flex;
+		justify-content: center;
 		padding: 3%;
 		border-radius: 5px;
+	}
+	label,
+	button,
+	input {
+		margin: 1%;
 	}
 }
 /* ------------------- [ DESKTOPS AND LARGER SCREENS. ] ------------------- */
@@ -148,7 +169,13 @@
 
 	.cta-area {
 		display: flex;
+		justify-content: center;
 		padding: 3%;
 		border-radius: 5px;
+	}
+	label,
+	button,
+	input {
+		margin: 1%;
 	}
 }
