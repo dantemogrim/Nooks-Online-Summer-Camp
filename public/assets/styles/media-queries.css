@@ -2,180 +2,198 @@
 
 /* ------------------- [ SMARTPHONES. ] ------------------- */
 @media screen and (max-width: 560px) {
-	.nintendo-logo {
-		width: 150px;
-	}
+  main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 
-	.header-img {
-		display: flex;
-		width: 250px;
-	}
+  .nintendo-logo {
+    width: 150px;
+  }
 
-	.burger-icon {
-		display: flex;
-		width: 50px;
-	}
+  .header-img {
+    display: flex;
+    width: 250px;
+  }
 
-	.info-container {
-		display: flex;
-		background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
-		background-repeat: no-repeat;
-		width: 100%;
-		align-content: center;
-		justify-content: center;
-		height: 800px;
-	}
+  .burger-icon {
+    display: flex;
+    width: 50px;
+  }
 
-	.info-text {
-		display: flex;
-		align-self: center;
-		background-color: var(--color5);
-		padding: 5%;
-		border-radius: 10px;
-		opacity: 0.9;
-	}
+  .info-container {
+    display: flex;
+    background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    height: 800px;
+  }
 
-	.tom-wave {
-		width: 250px;
-	}
+  .info-text {
+    display: flex;
+    align-self: center;
+    background-color: var(--color5);
+    padding: 5%;
+    border-radius: 10px;
+    opacity: 0.9;
+  }
 
-	.tom-money {
-		width: 250px;
-	}
+  .tom-wave {
+    width: 250px;
+  }
 
-	.nintendo-seal {
-		width: 100px;
-	}
+  .tom-money {
+    width: 250px;
+  }
 
-	.cta-area {
-		display: flex;
-		padding: 3%;
-		border-radius: 5px;
-		justify-content: center;
-	}
+  .nintendo-seal {
+    width: 100px;
+  }
 
-	label,
-	button,
-	input {
-		margin: 1%;
-	}
+  .form-wrapper {
+    display: flex;
+    padding: 3%;
+    border-radius: 5px;
+    justify-content: center;
+  }
+
+  label,
+  button,
+  input {
+    margin: 1%;
+  }
 }
 
 /* ------------------- [ TABLETS. ] ------------------- */
 @media screen and (min-width: 560px) {
-	.nintendo-logo {
-		width: 150px;
-	}
+  main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 
-	.header-img {
-		display: flex;
-		width: 250px;
-	}
+  .nintendo-logo {
+    width: 150px;
+  }
 
-	.burger-icon {
-		display: flex;
-		width: 50px;
-	}
+  .header-img {
+    display: flex;
+    width: 250px;
+  }
 
-	.info-container {
-		display: flex;
-		background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
-		background-repeat: no-repeat;
-		width: 100%;
-		align-content: center;
-		justify-content: center;
-		height: 800px;
-	}
+  .burger-icon {
+    display: flex;
+    width: 50px;
+  }
 
-	.info-text {
-		display: flex;
-		align-self: center;
-		background-color: var(--color5);
-		padding: 5%;
-		border-radius: 10px;
-		opacity: 0.9;
-	}
+  .info-container {
+    display: flex;
+    background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    height: 800px;
+  }
 
-	.tom-wave {
-		width: 250px;
-	}
+  .info-text {
+    display: flex;
+    align-self: center;
+    background-color: var(--color5);
+    padding: 5%;
+    border-radius: 10px;
+    opacity: 0.9;
+  }
 
-	.tom-money {
-		width: 250px;
-	}
+  .tom-wave {
+    width: 250px;
+  }
 
-	.nintendo-seal {
-		width: 100px;
-	}
+  .tom-money {
+    width: 250px;
+  }
 
-	.cta-area {
-		display: flex;
-		justify-content: center;
-		padding: 3%;
-		border-radius: 5px;
-	}
-	label,
-	button,
-	input {
-		margin: 1%;
-	}
+  .nintendo-seal {
+    width: 100px;
+  }
+
+  .form-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    border-radius: 5px;
+  }
+  label,
+  button,
+  input {
+    margin: 1%;
+  }
 }
 /* ------------------- [ DESKTOPS AND LARGER SCREENS. ] ------------------- */
 @media screen and (min-width: 1024px) {
-	.nintendo-logo {
-		width: 150px;
-	}
+  main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 
-	.header-img {
-		display: flex;
-		width: 250px;
-	}
+  .nintendo-logo {
+    width: 150px;
+  }
 
-	.burger-icon {
-		display: flex;
-		width: 50px;
-	}
+  .header-img {
+    display: flex;
+    width: 250px;
+  }
 
-	.info-container {
-		display: flex;
-		background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
-		background-repeat: no-repeat;
-		width: 100%;
-		align-content: center;
-		justify-content: center;
-		height: 800px;
-	}
+  .burger-icon {
+    display: flex;
+    width: 50px;
+  }
 
-	.info-text {
-		display: flex;
-		align-self: center;
-		background-color: var(--color5);
-		padding: 5%;
-		border-radius: 10px;
-		opacity: 0.9;
-	}
+  .info-container {
+    display: flex;
+    background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    height: 800px;
+  }
 
-	.tom-wave {
-		width: 250px;
-	}
+  .info-text {
+    display: flex;
+    align-self: center;
+    background-color: var(--color5);
+    padding: 5%;
+    border-radius: 10px;
+    opacity: 0.9;
+  }
 
-	.tom-money {
-		width: 250px;
-	}
+  .tom-wave {
+    width: 250px;
+  }
 
-	.nintendo-seal {
-		width: 100px;
-	}
+  .tom-money {
+    width: 250px;
+  }
 
-	.cta-area {
-		display: flex;
-		justify-content: center;
-		padding: 3%;
-		border-radius: 5px;
-	}
-	label,
-	button,
-	input {
-		margin: 1%;
-	}
+  .nintendo-seal {
+    width: 100px;
+  }
+
+  .form-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    border-radius: 5px;
+  }
+  label,
+  button,
+  input {
+    margin: 1%;
+  }
 }

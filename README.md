@@ -9,7 +9,7 @@ Our mission is to create an event invitation that communicates with targeted vis
 We get to decide ourselves which company/organization and what kind of event to create.
 The event can be either ficticious or something reoccuring.
 
-Me and Josefin (from IP GP&F) decided to go with Animal Crossing and the publishing company Nintendo.
+Me and Josefin (from IP20) decided to go with Animal Crossing and the publishing company Nintendo.
 Our idea is to create an event based off of Tom Nook's company and the static members of the island.
 We are thinking K.K. will be there to throw a concert and a selected few will recieve QR invitations and goodie bags etc.
 
