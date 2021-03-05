@@ -1,14 +1,19 @@
 @font-face {
-	font-family: 'Fink Heavy Medium';
-	src: url('/public/assets/fonts/FinkHeavyMedium.otf');
+  font-family: 'Fink Heavy Medium';
+  src: url('/public/assets/fonts/FinkHeavyMedium.otf');
 }
 
 * {
-	font-family: 'Fink Heavy Medium', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Fink Heavy Medium', Verdana, Arial, Helvetica, sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 .test {
-	font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+label,
+button {
+  font-family: 'Noto Sans JP', sans-serif;
 }

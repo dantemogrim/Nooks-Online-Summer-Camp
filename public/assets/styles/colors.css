@@ -26,7 +26,7 @@
 }
 
 body {
-  background-color: var(--ccolour4);
+  background-color: #a5ddc9;
   display: flex;
   flex-direction: column;
 }
@@ -34,7 +34,7 @@ body {
 header,
 footer {
   align-items: center;
-  background-color: var(--ccolour4);
+  background-color: #77c6aa;
   border-radius: 7px;
   display: flex;
   justify-content: space-evenly;
@@ -44,7 +44,7 @@ footer {
 
 main {
   align-content: center;
-  background-color: var(--ccolour4);
+  background-color: #77c6aa;
   border-radius: 7px;
   display: flex;
   flex-direction: column;
@@ -69,6 +69,10 @@ section {
 .form-wrapper {
   display: flex;
   align-self: center;
-  background-color: var(--ccolour4);
+  background-color: #a5ddc9;
   width: 80%;
+}
+
+.tom-informs {
+  background-color: #a5ddc9;
 }
