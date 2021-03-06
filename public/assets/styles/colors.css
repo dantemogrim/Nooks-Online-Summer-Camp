@@ -5,24 +5,6 @@
   --color3: #55a86e;
   --color4: #fed035;
   --color5: #ffffff;
-
-  /* 2nd site palette. */
-  --colour1: #f0c3b5;
-  --colour2: #f9e0d3;
-  --colour3: #eeede8;
-  --colour4: #bce3e0;
-  --colour5: #89cfd2;
-
-  /* 3rd alternative site palette. */
-  --ccolour1: #fce1d6;
-  --ccolour2: #efcfdc;
-  --ccolour3: #d8c9e6;
-  --ccolour4: #c7dcee;
-  --ccolour5: #ccf2f6;
-
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -53,7 +35,7 @@ main {
   padding: 2%;
 }
 
-.info-container {
+.welcome-container {
   background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
   display: flex;
 }

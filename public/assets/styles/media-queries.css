@@ -22,7 +22,11 @@
     width: 50px;
   }
 
-  .info-container {
+  .toms-speech-bubble {
+    background-color: burlywood;
+  }
+
+  .welcome-container {
     display: flex;
     background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
     background-repeat: no-repeat;
@@ -32,7 +36,7 @@
     height: 800px;
   }
 
-  .info-text {
+  .welcome-text {
     display: flex;
     align-self: center;
     background-color: var(--color5);
@@ -45,15 +49,11 @@
     width: 250px;
   }
 
-  .tom-money {
-    width: 250px;
-  }
-
   .nintendo-seal {
     width: 100px;
   }
 
-  .one-of-three {
+  .one-of-three-imgs {
     width: 30vw;
   }
 
@@ -93,7 +93,7 @@
     width: 50px;
   }
 
-  .info-container {
+  .welcome-container {
     display: flex;
     background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
     background-repeat: no-repeat;
@@ -103,7 +103,7 @@
     height: 800px;
   }
 
-  .info-text {
+  .welcome-text {
     display: flex;
     align-self: center;
     background-color: var(--color5);
@@ -116,11 +116,14 @@
     width: 250px;
   }
 
-  .tom-money {
-    width: 250px;
+  .toms-speech-bubble {
+    background-color: burlywood;
+    margin: 4%;
+    border-radius: 30px;
+    padding: 2%;
   }
 
-  .one-of-three {
+  .one-of-three-imgs {
     width: 30vw;
   }
 
@@ -162,7 +165,7 @@
     width: 50px;
   }
 
-  .info-container {
+  .welcome-container {
     display: flex;
     flex-direction: column;
     background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
@@ -173,7 +176,7 @@
     height: 800px;
   }
 
-  .info-text {
+  .welcome-text {
     display: flex;
     align-self: center;
     background-color: var(--color5);
@@ -187,15 +190,15 @@
     width: 250px;
   }
 
-  .tom-money {
-    width: 250px;
+  .toms-speech-bubble {
+    background-color: burlywood;
   }
 
   .nintendo-seal {
     width: 100px;
   }
 
-  .one-of-three {
+  .one-of-three-imgs {
     width: 30vw;
   }
 

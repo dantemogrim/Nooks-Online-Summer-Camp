@@ -9,7 +9,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-.test {
+.one-of-three-texts,
+.toms-speech-bubble,
+.form-explanation-text {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
