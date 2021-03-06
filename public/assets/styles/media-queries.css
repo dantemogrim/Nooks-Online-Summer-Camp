@@ -26,9 +26,9 @@
     background-color: burlywood;
   }
 
-  .welcome-container {
+  .camp-background {
     display: flex;
-    background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
+    background-image: url('/public/assets/img/camp3.jpeg');
     background-repeat: no-repeat;
     width: 100%;
     align-content: center;
@@ -93,9 +93,9 @@
     width: 50px;
   }
 
-  .welcome-container {
+  .camp-background {
     display: flex;
-    background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
+    background-image: url('/public/assets/img/camp3.jpeg');
     background-repeat: no-repeat;
     width: 100%;
     align-content: center;
@@ -165,11 +165,12 @@
     width: 50px;
   }
 
-  .welcome-container {
+  .camp-background {
     display: flex;
     flex-direction: column;
-    background-image: url('/public/assets/img/nookscranny-celebrate.jpg');
+    background-image: url('/public/assets/img/camp3.jpeg');
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     align-content: center;
     justify-content: center;
