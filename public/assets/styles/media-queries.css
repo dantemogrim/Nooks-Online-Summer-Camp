@@ -26,16 +26,6 @@
     background-color: burlywood;
   }
 
-  .camp-background {
-    display: flex;
-    background-image: url('/public/assets/img/camp3.jpeg');
-    background-repeat: no-repeat;
-    width: 100%;
-    align-content: center;
-    justify-content: center;
-    height: 800px;
-  }
-
   .welcome-text {
     display: flex;
     align-self: center;
@@ -58,6 +48,7 @@
   }
 
   .form-wrapper {
+    background-image: url('/public/assets/img/signupbox-ac.png');
     display: flex;
     padding: 3%;
     border-radius: 5px;
@@ -135,6 +126,7 @@
     display: flex;
     justify-content: center;
     padding: 3%;
+    background-image: url('/public/assets/img/signupbox-ac.png');
     border-radius: 5px;
   }
   label,
@@ -208,6 +200,7 @@
     justify-content: center;
     padding: 3%;
     border-radius: 5px;
+    background-image: url('/public/assets/img/signupbox-ac.png');
   }
   label,
   button,

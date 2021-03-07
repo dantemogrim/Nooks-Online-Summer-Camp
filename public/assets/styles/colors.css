@@ -57,10 +57,6 @@ section {
 }
 
 .form-wrapper {
-  display: flex;
-  align-self: center;
-  background-color: #a5ddc9;
-  width: 80%;
 }
 
 .tom-informs {
