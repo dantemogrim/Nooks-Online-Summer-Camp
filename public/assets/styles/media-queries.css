@@ -12,27 +12,13 @@
     width: 150px;
   }
 
-  .header-img {
+  .nintendo-seal {
+    width: 200px;
+  }
+
+  .animal-crossing-text {
     display: flex;
     width: 250px;
-  }
-
-  .letter {
-    display: flex;
-    width: 50px;
-  }
-
-  .toms-speech-bubble {
-    background-color: burlywood;
-  }
-
-  .welcome-text {
-    display: flex;
-    align-self: center;
-    background-color: var(--color5);
-    padding: 5%;
-    border-radius: 10px;
-    opacity: 0.9;
   }
 
   .tom-wave {
@@ -43,16 +29,28 @@
     width: 100px;
   }
 
-  .one-of-three-imgs {
+  .isabelle {
     width: 30vw;
   }
 
-  .form-wrapper {
-    background-image: url('/public/assets/img/signupbox-ac.png');
-    display: flex;
-    padding: 3%;
-    border-radius: 5px;
-    justify-content: center;
+  .text-on-img-wrapper {
+    position: relative;
+    text-align: center;
+  }
+
+  .chat-img {
+    width: 60vw;
+  }
+
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .one-of-three-imgs {
+    width: 30vw;
   }
 
   label,
@@ -74,65 +72,57 @@
     width: 150px;
   }
 
-  .header-img {
+  .nintendo-seal {
+    width: 200px;
+  }
+
+  .animal-crossing-text {
     display: flex;
     width: 250px;
-  }
-
-  .letter {
-    display: flex;
-    width: 50px;
-  }
-
-  .camp-background {
-    display: flex;
-    background-image: url('/public/assets/img/camp3.jpeg');
-    background-repeat: no-repeat;
-    width: 100%;
-    align-content: center;
-    justify-content: center;
-    height: 800px;
-  }
-
-  .welcome-text {
-    display: flex;
-    align-self: center;
-    background-color: var(--color5);
-    padding: 5%;
-    border-radius: 10px;
-    opacity: 0.9;
   }
 
   .tom-wave {
     width: 250px;
   }
 
-  .toms-speech-bubble {
-    background-color: burlywood;
-    margin: 4%;
-    border-radius: 30px;
-    padding: 2%;
-  }
-
   .one-of-three-imgs {
     width: 30vw;
+  }
+
+  .isabelle {
+    width: 30vw;
+  }
+
+  .text-on-img-wrapper {
+    position: relative;
+    text-align: center;
+  }
+
+  .chat-img {
+    width: 60vw;
+  }
+
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .nintendo-seal {
     width: 100px;
   }
 
-  .form-wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 3%;
-    background-image: url('/public/assets/img/signupbox-ac.png');
-    border-radius: 5px;
-  }
   label,
   button,
   input {
     margin: 1%;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    padding: 2%;
   }
 }
 /* ------------------- [ DESKTOPS AND LARGER SCREENS. ] ------------------- */
@@ -147,7 +137,11 @@
     width: 150px;
   }
 
-  .header-img {
+  .nintendo-seal {
+    width: 200px;
+  }
+
+  .animal-crossing-text {
     display: flex;
     width: 250px;
   }
@@ -157,34 +151,8 @@
     width: 50px;
   }
 
-  .camp-background {
-    display: flex;
-    flex-direction: column;
-    background-image: url('/public/assets/img/camp3.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    align-content: center;
-    justify-content: center;
-    height: 800px;
-  }
-
-  .welcome-text {
-    display: flex;
-    align-self: center;
-    background-color: var(--color5);
-    font-size: 3rem;
-    padding: 5%;
-    border-radius: 10px;
-    opacity: 0.9;
-  }
-
   .tom-wave {
     width: 250px;
-  }
-
-  .toms-speech-bubble {
-    background-color: burlywood;
   }
 
   .nintendo-seal {
@@ -195,13 +163,26 @@
     width: 30vw;
   }
 
-  .form-wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 3%;
-    border-radius: 5px;
-    background-image: url('/public/assets/img/signupbox-ac.png');
+  .isabelle {
+    width: 30vw;
   }
+
+  .text-on-img-wrapper {
+    position: relative;
+    text-align: center;
+  }
+
+  .chat-img {
+    width: 60vw;
+  }
+
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   label,
   button,
   input {

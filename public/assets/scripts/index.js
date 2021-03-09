@@ -29,11 +29,6 @@ window.scroll = () => {
 
 setInterval(() => {
   if (scrolling) {
-    scrolling = false;
-    threeWrappers.anime({
-      targets: '.three-description-wrappers',
-      translateX: 270,
-      delay: anime.stagger(100, { direction: 'normal' }),
-    });
+    console.log('scrolling');
   }
 }, 300);

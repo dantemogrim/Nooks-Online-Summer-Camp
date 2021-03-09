@@ -8,7 +8,7 @@ const phoneFiller = document.querySelector('#tel');
 
 if (urlParams.has('name')) {
   let name = urlParams.get('name');
-  welcomeName.innerText += `, ${name}!`;
+  welcomeName.innerText += `Ah, ${name}!`;
   nameFiller.setAttribute('value', name);
 }
 
