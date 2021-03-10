@@ -11,7 +11,7 @@ header {
   text-align: center;
 }
 
-.chat-img {
+.speech-bubble {
   width: 60vw;
 }
 
@@ -27,13 +27,8 @@ section {
   padding: 2%;
 }
 
-.happy-campers {
-  position: absolute;
-  right: 1%;
-}
-
-footer {
+/* footer {
   background-image: url('/public/assets/img/bottom-box.png');
   background-size: 100% 100%;
   height: 90vh;
-}
+} */

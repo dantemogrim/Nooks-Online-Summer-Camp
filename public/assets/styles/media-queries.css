@@ -16,12 +16,8 @@
     width: 200px;
   }
 
-  .animal-crossing-text {
+  .animal-crossing-wordmark {
     display: flex;
-    width: 250px;
-  }
-
-  .tom-wave {
     width: 250px;
   }
 
@@ -29,7 +25,7 @@
     width: 100px;
   }
 
-  .isabelle {
+  .animal {
     width: 30vw;
   }
 
@@ -38,7 +34,7 @@
     text-align: center;
   }
 
-  .chat-img {
+  .speech-bubble {
     width: 60vw;
   }
 
@@ -49,14 +45,14 @@
     transform: translate(-50%, -50%);
   }
 
-  .one-of-three-imgs {
-    width: 30vw;
-  }
-
   label,
   button,
   input {
     margin: 1%;
+  }
+
+  .green-logo {
+    width: 10vw;
   }
 }
 
@@ -76,20 +72,12 @@
     width: 200px;
   }
 
-  .animal-crossing-text {
+  .animal-crossing-wordmark {
     display: flex;
     width: 250px;
   }
 
-  .tom-wave {
-    width: 250px;
-  }
-
-  .one-of-three-imgs {
-    width: 30vw;
-  }
-
-  .isabelle {
+  .animal {
     width: 30vw;
   }
 
@@ -98,7 +86,7 @@
     text-align: center;
   }
 
-  .chat-img {
+  .speech-bubble {
     width: 60vw;
   }
 
@@ -124,6 +112,11 @@
     text-align: center;
     padding: 2%;
   }
+
+  .green-logo {
+    width: 10vw;
+    border-radius: 10px;
+  }
 }
 /* ------------------- [ DESKTOPS AND LARGER SCREENS. ] ------------------- */
 @media screen and (min-width: 1024px) {
@@ -141,7 +134,7 @@
     width: 200px;
   }
 
-  .animal-crossing-text {
+  .animal-crossing-wordmark {
     display: flex;
     width: 250px;
   }
@@ -151,19 +144,11 @@
     width: 50px;
   }
 
-  .tom-wave {
-    width: 250px;
-  }
-
   .nintendo-seal {
     width: 100px;
   }
 
-  .one-of-three-imgs {
-    width: 30vw;
-  }
-
-  .isabelle {
+  .animal {
     width: 30vw;
   }
 
@@ -172,7 +157,7 @@
     text-align: center;
   }
 
-  .chat-img {
+  .speech-bubble {
     width: 60vw;
   }
 
@@ -187,5 +172,11 @@
   button,
   input {
     margin: 1%;
+  }
+
+  .green-logo {
+    max-width: 200px;
+    width: 10vw;
+    border-radius: 10px;
   }
 }
