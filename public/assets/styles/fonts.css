@@ -9,8 +9,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-.form-explanation-text {
+.sign-up-explanation,
+p,
+a,
+b,
+.speech-bubble-text {
   font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sign-up-explanation {
+  position: relative;
+  display: flex;
+  text-align: left;
+  padding: 2%;
+}
+
+.mabels-speech {
+  padding-top: 8%;
 }
 
 label,
