@@ -1,0 +1,134 @@
+@media screen and (max-width: 560px) {
+  header {
+    align-items: center;
+    background-image: url('/public/assets/img/pattern.png');
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    margin: 2%;
+    padding: 2%;
+  }
+
+  .nintendo-logo {
+    width: 50px;
+    height: max-content;
+  }
+
+  .nintendo-seal {
+    display: flex;
+    width: 50px;
+    height: auto;
+  }
+
+  .animal-crossing-wordmark {
+    display: flex;
+    width: 150px;
+  }
+
+  .camp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 3%;
+  }
+
+  .camp-text {
+    font-size: 1rem;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .animal {
+    width: 100px;
+    height: auto;
+  }
+
+  .speech-bubble-text {
+    text-align: justify;
+    font-size: 0.4rem;
+  }
+
+  .text-on-img-wrapper {
+    position: relative;
+    text-align: center;
+  }
+
+  .speech-bubble {
+    width: 60vw;
+  }
+
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .form-header {
+    font-size: 1rem;
+  }
+
+  .form-paragraph {
+    font-size: 0.6rem;
+  }
+
+  .mobile-form-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sign-up-box {
+    width: 90vw;
+    position: absolute;
+    bottom: -35%;
+  }
+
+  label,
+  button,
+  input {
+    display: flex;
+    position: relative;
+    left: 170px;
+    z-index: 1;
+    margin: 0%;
+  }
+
+  .register-button {
+    font-weight: bold;
+    font-size: 0.5rem;
+    margin: 1%;
+    width: 15vw;
+    height: 3vh;
+    border-radius: 30px;
+  }
+
+  .footer-info-wrapper {
+    font-size: 0.5rem;
+    line-height: 0;
+  }
+
+  .creators {
+    font-size: 0.5rem;
+    line-height: 1;
+  }
+
+  .footer-logos {
+    display: flex;
+    width: 1vw;
+  }
+
+  .happy-campers {
+    width: 60vw;
+  }
+
+  .green-logo {
+    width: 10vw;
+    border-radius: 5px;
+  }
+}

@@ -1,12 +1,54 @@
+/* All other CSS files - only requires a single link source in index.html. */
+
+@import url('/public/assets/styles/colors.css');
+@import url('/public/assets/styles/fonts.css');
+@import url('/public/assets/styles/preload.css');
+@import url('/public/assets/styles/playground.css');
+@import url('/public/assets/styles/media-queries/phone.css');
+@import url('/public/assets/styles/media-queries/tablet.css');
+@import url('/public/assets/styles/media-queries/desktop.css');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@import url('/public/assets/styles/chats.css');
-@import url('/public/assets/styles/colors.css');
-@import url('/public/assets/styles/fonts.css');
-@import url('/public/assets/styles/media-queries.css');
-@import url('/public/assets/styles/preload.css');
-@import url('/public/assets/styles/playground.css');
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  align-items: center;
+  background-image: url('/public/assets/img/pattern.png');
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  height: auto;
+  justify-content: space-evenly;
+  margin: 2%;
+  padding: 2%;
+}
+
+main {
+  align-content: center;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2%;
+  padding: 2%;
+}
+
+.text-on-img-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+  padding: 1%;
+}

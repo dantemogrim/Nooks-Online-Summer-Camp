@@ -17,13 +17,6 @@ b,
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-.sign-up-explanation {
-  position: relative;
-  display: flex;
-  text-align: left;
-  padding: 2%;
-}
-
 .mabels-speech {
   padding-top: 8%;
 }
