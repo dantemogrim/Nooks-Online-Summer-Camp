@@ -30,6 +30,10 @@
     .speech-bubble {
       width: 60vw;
     }
+
+    .sign-up-box {
+      width: 90vw;
+    }
   
     .centered-text {
       position: absolute;

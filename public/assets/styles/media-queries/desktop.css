@@ -47,6 +47,10 @@
     transform: translate(-50%, -50%);
   }
 
+  .sign-up-box {
+    width: 90vw;
+  }
+
   label,
   button,
   input {
