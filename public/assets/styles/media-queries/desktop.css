@@ -5,6 +5,10 @@
     text-align: center;
   }
 
+  p {
+    color: pink;
+  }
+
   .nintendo-logo {
     width: 150px;
   }

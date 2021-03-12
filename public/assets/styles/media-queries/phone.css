@@ -1,4 +1,8 @@
 @media screen and (max-width: 560px) {
+  p {
+    color: pink;
+  }
+
   header {
     align-items: center;
     background-image: url('/public/assets/img/pattern.png');
