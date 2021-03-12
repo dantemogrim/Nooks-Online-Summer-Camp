@@ -1,4 +1,8 @@
 @media screen and (min-width: 1024px) {
+  p {
+    color: darkcyan;
+  }
+
   main {
     display: flex;
     justify-content: center;

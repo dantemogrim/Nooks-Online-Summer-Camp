@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+p {
+  color: darkcyan;
+}
+
 body {
   display: flex;
   flex-direction: column;

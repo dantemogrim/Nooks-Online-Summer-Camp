@@ -4,6 +4,10 @@
   --color2: #77c6aa;
 }
 
+p {
+  color: darkcyan;
+}
+
 body {
   background-color: var(--color2);
 }

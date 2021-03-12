@@ -1,8 +1,7 @@
 @media screen and (min-width: 560px) {
   p {
-    color: pink;
+    color: darkcyan;
   }
-
   main {
     display: flex;
     justify-content: center;
