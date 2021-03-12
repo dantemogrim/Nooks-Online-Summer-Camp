@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-p {
-  color: pink;
-}
-
 body {
   display: flex;
   flex-direction: column;
