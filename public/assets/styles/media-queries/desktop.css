@@ -35,6 +35,10 @@
     width: 30vw;
   }
 
+  .animal-round {
+    display: none;
+  }
+
   .text-on-img-wrapper {
     position: relative;
     text-align: center;
