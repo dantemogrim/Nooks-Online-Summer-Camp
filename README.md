@@ -1,10 +1,10 @@
-# Event Invitation
+# Nook's Online Summer Camp
 
 <img src="https://media.giphy.com/media/h8ISB2nUVITEWjVgGo/giphy.gif"  width="75%">
 
 ## :shipit: Mission
 
-This is a group assignment where my Web Dev class have been coupled with the IP Graphical Production & Form class.
+This is a group assignment called "Event Invitation" where my Web Dev class have been coupled with the IP Graphical Production & Form class.
 Our mission is to create an event invitation that communicates with targeted visitors through multiple channels.
 We get to decide ourselves which company/organization and what kind of event to create.
 The event can be either ficticious or something reoccuring.
@@ -34,6 +34,13 @@ _Opt 1:_ See the project hosted live on [this link](https://event-invitation.net
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cafdded0-d687-45e1-9e15-568bd5528825/deploy-status)](https://app.netlify.com/sites/event-invitation/deploys)
 
+_Opt 2:_
+
+1. Clone the repository onto your computer.
+2. Open your terminal and `cd` into the root folder.
+3. In your CLI type: `npx parcel index.html`.
+4. Open up your browser and write the name of the localhost that your CLI started through the previous step. You should be able to access the project from there.
+
 ## :computer: Testers
 
 - [Person 1](https://github.com/mogrim-91)
@@ -60,6 +67,6 @@ By [Person 3](https://github.com/mogrim-91)
 - [Dante Mogrim](https://github.com/mogrim-91)
 - [Josefin Eldh (IP20)](https://josefineldh.com)
 
-## :fleur_de_lis: License
+## :blue_car: License
 
 [MIT](https://en.wikipedia.org/wiki/MIT_License)

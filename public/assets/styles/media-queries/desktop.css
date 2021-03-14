@@ -1,42 +1,63 @@
 @media screen and (min-width: 1024px) {
-  main {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .preload-animation {
+    width: 10vw;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  body {
     display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
   }
 
-  p {
-    color: pink;
-  }
-
-  .nintendo-logo {
-    width: 150px;
-  }
-
-  .nintendo-seal {
-    width: 200px;
+  header {
+    align-items: center;
+    background-image: url('/public/assets/img/pattern.png');
+    border-radius: 15px;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    margin: 2%;
+    padding: 2%;
   }
 
   .animal-crossing-wordmark {
     display: flex;
-    width: 250px;
+    width: 70vw;
   }
 
-  .letter {
+  .camp-wrapper {
+    position: relative;
+  }
+
+  .camp-img {
     display: flex;
-    width: 50px;
+    align-self: center;
+    width: 100vw;
+    margin: 1%;
   }
 
-  .nintendo-seal {
-    width: 100px;
-  }
-
-  .animal {
-    width: 30vw;
-  }
-
-  .animal-round {
-    display: none;
+  .camp-text {
+    font-size: 3rem;
+    position: absolute;
+    padding: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
   }
 
   .text-on-img-wrapper {
@@ -44,30 +65,151 @@
     text-align: center;
   }
 
-  .speech-bubble {
-    width: 60vw;
+  .animal-round {
+    display: none;
   }
 
-  .centered-text {
+  section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5%;
+  }
+
+  .isabelles-section {
+    flex-direction: row-reverse;
+  }
+
+  .speech-bubble-text {
+    font-size: 1.5rem;
+    width: 50vw;
+    margin: 1%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-  .sign-up-box {
+  .speech-bubble {
     width: 90vw;
   }
 
-  label,
-  button,
+  .register-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .register-paragraph {
+    display: flex;
+    text-align: center;
+    padding: 2%;
+  }
+
+  .form-bg-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/assets/img/signupbox-phone.png');
+    height: 70vh;
+    background-size: cover;
+    flex-direction: column;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+  }
+
+  .register-header {
+    margin: 2%;
+  }
+
+  .register-paragraph {
+    width: 70vw;
+  }
+
+  .register-button {
+    align-self: center;
+    font-size: 0.9rem;
+    margin: 7vw;
+    width: 25vw;
+    height: 4vh;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
   input {
+    border: none;
+    height: 4vh;
     margin: 1%;
   }
 
-  .green-logo {
-    max-width: 200px;
-    width: 10vw;
-    border-radius: 10px;
+  .timmy-tommy {
+    padding: 5%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url('/public/assets/img/bottom-box.png');
+    height: 100vh;
+  }
+
+  .footer-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    line-height: 1.8;
+  }
+
+  .happy-campers {
+    display: flex;
+    align-self: center;
+    width: 90vw;
+    position: relative;
+    top: 60px;
+  }
+
+  .nintendo-online {
+    width: 15vw;
+  }
+
+  .nintendo-seal {
+    display: flex;
+    width: 50px;
+    height: auto;
+  }
+
+  .footer-logos {
+    display: flex;
+    margin: 3%;
+    position: relative;
+    top: 100px;
+    justify-content: space-evenly;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .creators {
+    display: flex;
+    align-self: center;
+    font-size: 0.9rem;
+    position: relative;
+    top: 100px;
+    margin: 2%;
+  }
+
+  .nb {
+    display: flex;
+    align-self: center;
+    position: relative;
+    top: 110px;
+    margin: 2%;
+    font-size: 0.5rem;
   }
 }

@@ -6,7 +6,7 @@ const preloadAnimation = document.querySelector('.preload-animation');
 preloadAnimation.addEventListener('load', () => {
   anime({
     targets: '.preload-animation',
-    rotate: '4turn',
+    rotate: '3turn',
     backgroundColor: '',
     duration: 10000,
     loop: true,
