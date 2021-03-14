@@ -1,25 +1,76 @@
 @media screen and (min-width: 560px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .preload-animation {
+    width: 10vw;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
   main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
   }
 
-  .nintendo-logo {
-    width: 150px;
+  .pattern-bg-img {
+    margin: 5%;
+    width: 100vw;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/assets/img/pattern.png');
+    background-size: cover;
+    flex-direction: column;
   }
 
-  .nintendo-seal {
-    width: 200px;
+  .nintendo-logo {
+    width: 100px;
+    margin: 1%;
   }
 
   .animal-crossing-wordmark {
     display: flex;
+    margin: 1%;
     width: 250px;
   }
 
+  .camp-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .camp-img {
+    display: flex;
+    width: 100vw;
+    margin: 2%;
+  }
+
+  .camp-text {
+    font-size: 3rem;
+    position: absolute;
+    width: 50vw;
+    padding: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+  }
+
   .animal {
-    width: 30vw;
+    width: 25vw;
   }
 
   .animal-round {
@@ -31,19 +82,34 @@
     text-align: center;
   }
 
+  section {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .isabelles-section {
+    flex-direction: row-reverse;
+  }
+
   .speech-bubble {
-    width: 60vw;
+    width: 65vw;
   }
 
-  .sign-up-box {
-    width: 90vw;
-  }
-
-  .centered-text {
+  .speech-bubble-text {
+    font-size: 1.2rem;
+    width: 55vw;
+    margin: 1%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  /* Isabelle's and Mabel's text
+  scatter away mysteriously without this.*/
+  .text-position {
+    bottom: 80px;
   }
 
   .nintendo-seal {
@@ -54,16 +120,115 @@
   button,
   input {
     margin: 1%;
+    width: 50vw;
+    font-size: 1.3rem;
   }
 
-  .container {
-    position: relative;
+  .register-header {
+    font-size: 2.2rem;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .register-paragraph {
+    font-size: 1.3rem;
+    display: flex;
     text-align: center;
+    margin: 4%;
+  }
+
+  .register-info-white-bg {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: center;
+    width: 80vw;
+    margin: 5%;
+  }
+
+  .register-button {
+    align-self: center;
+    font-size: 0.9rem;
+    margin: 7vw;
+    width: 30vw;
+    height: 8vh;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  input {
+    border: none;
+    height: 4vh;
+    margin: 3%;
+  }
+
+  .timmy-tommy {
+    display: flex;
+    align-self: center;
+    width: 80vw;
+    padding: 5%;
+  }
+
+  footer {
+    display: flex;
+    padding-top: 20vh;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/public/assets/img/bottom-box.png');
+  }
+
+  .footer-info-wrapper {
+    display: flex;
+    font-size: 1.7rem;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+  }
+
+  .happy-campers {
+    display: flex;
+    align-self: center;
+    margin: 5%;
+    width: 65vw;
+  }
+
+  .nintendo-online {
+    width: 13vw;
     padding: 2%;
   }
 
-  .green-logo {
-    width: 10vw;
-    border-radius: 10px;
+  .nintendo-seal {
+    display: flex;
+    width: 13vw;
+    padding: 2%;
+  }
+
+  .footer-logos {
+    display: flex;
+    justify-content: left;
+    padding: 3%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .creators {
+    margin: 2%;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+  }
+
+  .nb {
+    display: flex;
+    margin: 2%;
+    font-style: italic;
+    align-self: center;
+    font-size: 0.9rem;
   }
 }
