@@ -14,7 +14,7 @@ Our idea is to create an event based off of Tom Nook's company and the static me
 We are thinking K.K. will be there to throw a concert and a selected few will recieve QR invitations and goodie bags etc.
 
 <details><summary> :love_letter: <b> Project requirements:</b></summary>
-  
+
 - Create a landing page that follows the same graphical style as the chosen company.
 - The site has to be mobile first and follow the [WCAG](https://www.a11yproject.com/checklist/) standard.
 - The site should have at least five animations of which one has to be a so called "in animation".
@@ -30,7 +30,7 @@ We are thinking K.K. will be there to throw a concert and a selected few will re
 
 ## :octocat: Instructions
 
-_Opt 1:_ See the project hosted live on [this link](https://event-invitation.netlify.app/).
+_Opt 1:_ See the project hosted live on [this link](https://nooks-online-summer-camp.netlify.app/).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cafdded0-d687-45e1-9e15-568bd5528825/deploy-status)](https://app.netlify.com/sites/event-invitation/deploys)
 
