@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon. -->
     <link rel="icon" type="images/png" href="/public/assets/img/leaf.png" />
-    <link
-      rel="stylesheet"
-      href="/public/assets/styles/media-queries/desktop.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/public/assets/styles/media-queries/phone.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/public/assets/styles/media-queries/tablet.css"
-    />
-    <link rel="stylesheet" href="/public/assets/styles/main.css" />
     <link rel="stylesheet" href="/public/assets/styles/colors.css" />
     <link rel="stylesheet" href="/public/assets/styles/fonts.css" />
+    <link rel="stylesheet" href="/public/assets/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="/public/assets/styles/media-queries/large-screens.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/public/assets/styles/media-queries/medium-screens.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/public/assets/styles/media-queries/small-screens.css"
+    />
     <link rel="stylesheet" href="/public/assets/styles/preload.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
@@ -82,7 +82,7 @@
             alt=""
             loading="lazy"
           />
-          <span class="speech-bubble-text">
+          <span class="speech-bubble-text toms-text">
             <span class="welcome"></span>
             <br />
             Hello, hello! We are hosting a very big event on the 2nd of June
@@ -131,26 +131,33 @@
         </div>
       </section>
       <!-- Form. -->
-      <div class="pattern-bg-img">
-        <div class="register-info-white-bg">
-        <h2 class="register-header">"Where can I sign up?"</h2>
-        <p class="register-paragraph">
-          To participate in this event: register your information below and
-          receive a personal invitation!
-        </p>
-        <form action="index.html" method="get">
-          <label for="name">name:</label>
-          <input type="name" id="name" name="name" placeholder="Tom Nook" />
-          <br />
-          <label for="email">e-mail:</label>
-          <input type="email" id="email" name="email" placeholder="tom@nookscranny.com" />
-          <br />
-          <label for="tel">phone:</label>
-          <input type="tel" id="tel" name="tel" placeholder="+81-123456789" />
-          <br />
-          <button class="register-button" type="submit">Register</button>
+      <div class="register-bg">
+        <div class="form-alt-bg-img">
+          <div class="register-info">
+            <h2 class="register-header">"Where can I sign up?"</h2>
+            <p class="register-paragraph">
+              To participate in this event: register your information below and
+              receive a personal invitation!
+            </p>
+          </div>
+          <form action="index.html" method="get">
+            <label for="name">name:</label>
+            <input type="name" id="name" name="name" placeholder="Tom Nook" />
+            <br />
+            <label for="email">e-mail:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="tom@nookscranny.com"
+            />
+            <br />
+            <label for="tel">phone:</label>
+            <input type="tel" id="tel" name="tel" placeholder="+81-123456789" />
+            <br />
+            <button class="register-button" type="submit">Register</button>
+          </form>
         </div>
-        </form>
       </div>
       <!-- Timmy & Tommy. -->
       <img class="timmy-tommy" src="public/assets/img/timmy-tommy.png" />
@@ -186,7 +193,6 @@
         <a class="dante" href="https://github.com/mogrim-91"
           >Dante Mogrim WU20</a
         >
-        <p>&</p>
         <a class="josefin" href="https://josefineldh.com/">Josefin Eldh IP20</a>
         <p>@ Yrgo 2021</p>
       </div>

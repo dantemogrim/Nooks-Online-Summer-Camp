@@ -1,0 +1,217 @@
+@media screen and (max-width: 560px) and (min-width: 0px) {
+  .preload-animation {
+    width: 50vw;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  header {
+    background-image: url('/public/assets/img/pattern.png');
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+  }
+
+  .nintendo-logo {
+    display: none;
+  }
+
+  .animal-crossing-wordmark {
+    display: flex;
+    width: 70vw;
+  }
+
+  .camp-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .camp-img {
+    display: flex;
+    align-self: center;
+    width: 100vw;
+    margin: 1%;
+  }
+
+  .camp-text {
+    display: flex;
+    align-self: center;
+    width: 90vw;
+    font-size: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5%;
+    padding: 4%;
+  }
+
+  .text-on-img-wrapper {
+    position: relative;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5%;
+  }
+
+  .animal-round {
+    display: flex;
+    align-self: center;
+    width: 150px;
+  }
+
+  .tom {
+    display: none;
+  }
+
+  .isabelle {
+    display: none;
+  }
+
+  .mabel {
+    display: none;
+  }
+
+  .speech-bubble-text {
+    font-size: 0.9rem;
+    width: 75vw;
+    margin: 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .speech-bubble {
+    width: 90vw;
+  }
+
+  .text-position {
+    bottom: 50px;
+  }
+
+  .register-header {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+  }
+
+  .register-paragraph {
+    display: flex;
+    text-align: center;
+    padding: 2%;
+  }
+
+  .register-info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: center;
+    width: 80vw;
+    margin: 5%;
+  }
+
+  .form-alt-bg-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/assets/img/pattern.png');
+    background-size: cover;
+    flex-direction: column;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    width: 70vw;
+  }
+
+  .register-button {
+    align-self: center;
+    font-size: 0.9rem;
+    margin: 7vw;
+    width: 25vw;
+    height: 4vh;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  input {
+    border: none;
+    height: 4vh;
+    margin: 3%;
+  }
+
+  .timmy-tommy {
+    padding: 5%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url('/public/assets/img/bottom-box.png');
+    height: 100vh;
+  }
+
+  .footer-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    line-height: 1.8;
+  }
+
+  .happy-campers {
+    display: flex;
+    align-self: center;
+    width: 90vw;
+    position: relative;
+    top: 60px;
+  }
+
+  .nintendo-online {
+    width: 15vw;
+  }
+
+  .nintendo-seal {
+    display: flex;
+    width: 50px;
+    height: auto;
+  }
+
+  .footer-logos {
+    display: flex;
+    margin: 3%;
+    position: relative;
+    top: 100px;
+    justify-content: space-evenly;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .creators {
+    display: flex;
+    align-self: center;
+    font-size: 0.9rem;
+    position: relative;
+    top: 100px;
+    margin: 2%;
+  }
+
+  .nb {
+    display: flex;
+    align-self: center;
+    position: relative;
+    top: 110px;
+    margin: 2%;
+    font-size: 0.5rem;
+  }
+}
