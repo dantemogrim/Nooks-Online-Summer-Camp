@@ -36,6 +36,7 @@
   .camp-img {
     display: flex;
     width: 100vw;
+    max-height: 800px;
   }
 
   .camp-text {
@@ -44,6 +45,7 @@
     font-size: 3.2rem;
     position: relative;
     width: 50vw;
+    max-width: 500px;
     padding: 5%;
     top: 50%;
     left: 50%;
@@ -53,6 +55,7 @@
 
   .animal {
     width: 20vw;
+    max-width: 200px;
   }
 
   .animal-round {
@@ -64,8 +67,16 @@
     text-align: center;
   }
 
+  .bg-gradient {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   section {
+    display: flex;
     margin: 2%;
+    width: 70vw;
     display: flex;
     flex-direction: row;
   }
@@ -75,13 +86,14 @@
   }
 
   .speech-bubble {
+    max-width: 500px;
     width: 60vw;
   }
 
   .speech-bubble-text,
   .toms-text {
-    font-size: 1.7rem;
-    width: 55vw;
+    font-size: 15px;
+    width: 300px;
     margin: 1%;
     position: absolute;
     top: 50%;
@@ -91,9 +103,9 @@
 
   .text-position {
     display: flex;
-    width: 50vw;
-    font-size: 1.7rem;
-    bottom: 150px;
+    width: 300px;
+    font-size: 15px;
+    bottom: 100px;
   }
 
   .register-header {
@@ -117,7 +129,7 @@
     display: flex;
     background-image: url('/public/assets/img/sign-up-box.png');
     flex-direction: column;
-    background-size: 100% 90%;
+    background-size: 80% 80%;
     width: 100vw;
     background-position: center center;
     background-repeat: no-repeat;
@@ -169,16 +181,7 @@
   footer {
     display: flex;
     padding-top: 20vh;
-    justify-content: center;
-    flex-direction: column;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('/public/assets/img/bottom-box.png');
-  }
-
-  footer {
-    display: flex;
-    padding-top: 20vh;
+    background-color: var(--color2);
     justify-content: center;
     flex-direction: column;
     background-size: cover;

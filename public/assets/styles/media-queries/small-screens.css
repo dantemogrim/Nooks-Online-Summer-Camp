@@ -30,6 +30,7 @@
   .animal-crossing-wordmark {
     display: flex;
     width: 70vw;
+    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
   }
 
   .camp-wrapper {
@@ -146,12 +147,12 @@
     display: flex;
     background-color: white;
     flex-direction: column;
-    padding: 1%;
+    padding: 7%;
     border-radius: 15px;
     margin: 5%;
     text-align: left;
-    width: 90vw;
-    font-size: 1.1rem;
+    width: 80vw;
+    font-size: 1.3rem;
   }
 
   .register-button:hover {
@@ -199,6 +200,7 @@
 
   .footer-info-wrapper {
     display: flex;
+    padding-top: 7%;
     flex-direction: column;
     align-self: center;
     line-height: 1.8;
