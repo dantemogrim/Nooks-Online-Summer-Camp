@@ -39,6 +39,8 @@
   }
 
   .camp-text {
+    background-image: url('/public/assets/img/red-white-blue-letter.png');
+    background-size: 100% 100%;
     font-size: 3.2rem;
     position: relative;
     width: 50vw;
@@ -151,10 +153,16 @@
     cursor: pointer;
   }
 
+  .love-letter {
+    max-width: 800px;
+    align-self: center;
+  }
+
   .timmy-tommy {
     display: flex;
     align-self: center;
     width: 60vw;
+    max-width: 700px;
     margin: 5%;
   }
 

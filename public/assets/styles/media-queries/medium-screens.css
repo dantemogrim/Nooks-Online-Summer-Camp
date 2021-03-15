@@ -5,8 +5,14 @@
     border-radius: 50%;
   }
 
+  header {
+    background-image: url('/public/assets/img/pattern.png');
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+  }
+
   .pattern-bg-img {
-    margin: 5%;
     width: 100vw;
     display: flex;
     align-self: center;
@@ -41,6 +47,8 @@
   }
 
   .camp-text {
+    background-image: url('/public/assets/img/red-white-blue-letter.png');
+    background-size: 100% 100%;
     font-size: 2.5rem;
     position: absolute;
     width: 50vw;
@@ -153,10 +161,17 @@
     margin: 3%;
   }
 
+  .love-letter {
+    max-width: 600px;
+    margin: 7%;
+    align-self: center;
+  }
+
   .timmy-tommy {
     display: flex;
     align-self: center;
     width: 80vw;
+    max-width: 500px;
     padding: 5%;
   }
 
