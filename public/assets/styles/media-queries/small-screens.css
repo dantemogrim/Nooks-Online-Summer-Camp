@@ -5,6 +5,17 @@
     border-radius: 50%;
   }
 
+  .bg-gradient {
+    background: linear-gradient(
+      60deg,
+      var(--color1),
+      var(--color2),
+      rgb(238, 228, 178),
+      rgb(181, 230, 181),
+      mediumseagreen
+    );
+  }
+
   header {
     background-image: url('/public/assets/img/pattern.png');
     display: flex;
@@ -31,7 +42,6 @@
     display: flex;
     align-self: center;
     width: 100vw;
-    margin: 1%;
   }
 
   .camp-text {
@@ -40,11 +50,12 @@
     display: flex;
     align-self: center;
     width: 90vw;
+    height: 22vh;
     font-size: 2rem;
     border-radius: 10px;
     text-align: center;
     margin: 5%;
-    padding: 4%;
+    padding: 6%;
   }
 
   .text-on-img-wrapper {
@@ -62,7 +73,8 @@
   .animal-round {
     display: flex;
     align-self: center;
-    width: 150px;
+    width: 200px;
+    filter: drop-shadow(7px 7px 7px rgb(48, 83, 64));
   }
 
   .tom {
@@ -78,7 +90,7 @@
   }
 
   .speech-bubble-text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     width: 75vw;
     margin: 1%;
     position: absolute;
@@ -115,9 +127,13 @@
     justify-content: center;
     width: 80vw;
     margin: 5%;
+    padding: 5%;
   }
 
   .form-alt-bg-img {
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,9 +144,18 @@
 
   form {
     display: flex;
+    background-color: white;
     flex-direction: column;
+    padding: 1%;
+    border-radius: 15px;
     margin: 5%;
-    width: 70vw;
+    text-align: left;
+    width: 90vw;
+    font-size: 1.1rem;
+  }
+
+  .register-button:hover {
+    box-shadow: none;
   }
 
   .register-button {
@@ -145,16 +170,20 @@
 
   input {
     border: none;
-    height: 4vh;
-    margin: 3%;
+    height: 5vh;
+    margin: 2%;
+    font-size: 1rem;
+    padding: 2%;
   }
 
   .love-letter {
-    margin: 8%;
+    width: 90vw;
+    margin: 6%;
   }
 
   .timmy-tommy {
-    padding: 5%;
+    width: 80vw;
+    margin: 10%;
   }
 
   footer {
@@ -162,6 +191,8 @@
     justify-content: center;
     flex-direction: column;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--color2);
     background-image: url('/public/assets/img/bottom-box.png');
     height: 100vh;
   }

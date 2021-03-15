@@ -18,7 +18,8 @@ b,
 }
 
 label,
-button {
+button,
+input {
   font-family: 'Noto Sans JP', sans-serif;
 }
 

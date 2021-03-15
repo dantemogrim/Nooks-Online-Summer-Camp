@@ -4,21 +4,21 @@
   --color2: #77c6aa;
 }
 
-body {
+/* body {
   background-color: var(--color2);
-}
+} */
 
-header {
+/* header {
   background-color: var(--color2);
-}
+} */
 
 .camp-text {
   background-color: blanchedalmond;
 }
 
-main {
+/* main {
   background-color: var(--color2);
-}
+} */
 
 input {
   background-color: blanchedalmond;
