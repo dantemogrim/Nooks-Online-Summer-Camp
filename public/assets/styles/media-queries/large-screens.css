@@ -199,7 +199,7 @@
 
   form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 1%;
     max-width: 500px;
     margin: 1%;
