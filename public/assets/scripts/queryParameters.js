@@ -1,14 +1,14 @@
 // Personalized greeting.
 
 let urlParams = new URLSearchParams(window.location.search);
-const welcomeName = document.querySelector('.welcome');
+const welcomeName = document.querySelector('.personalized-name');
 const nameFiller = document.querySelector('#name');
 const emailFiller = document.querySelector('#email');
 const phoneFiller = document.querySelector('#tel');
 
 if (urlParams.has('name')) {
   let name = urlParams.get('name');
-  welcomeName.innerText += `Ah, ${name}!`;
+  welcomeName.innerText += `${name}`;
   nameFiller.setAttribute('value', name);
 }
 

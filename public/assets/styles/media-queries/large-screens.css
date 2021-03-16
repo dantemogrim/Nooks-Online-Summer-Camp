@@ -5,6 +5,10 @@
     border-radius: 50%;
   }
 
+  header {
+    padding: 2%;
+  }
+
   .pattern-bg-img {
     width: 100vw;
     display: flex;
@@ -25,37 +29,68 @@
     display: flex;
     margin: 1%;
     width: 300px;
+    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
   }
 
   .camp-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: auto;
+    width: 100vw;
   }
 
   .camp-img {
     display: flex;
     width: 100vw;
-    max-height: 800px;
+    object-fit: cover;
+    max-height: 600px;
+    border-style: solid;
+    border-color: white;
+    border-width: 50px;
   }
 
   .camp-text {
     background-image: url('/public/assets/img/red-white-blue-letter.png');
     background-size: 100% 100%;
+    background-repeat: no-repeat;
     font-size: 3.2rem;
     position: relative;
-    width: 50vw;
-    max-width: 500px;
+    width: 60vw;
+    max-width: 700px;
     padding: 5%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 15px;
+    transform: translate(-50%, -30%);
+    border-radius: 4px;
+  }
+
+  .bg-gradient {
+    background: linear-gradient(
+      0deg,
+      var(--color1),
+      rgb(167, 210, 255),
+      var(--color2),
+      rgb(199, 255, 165),
+      rgb(181, 230, 181),
+      rgb(255, 198, 129)
+    );
+  }
+
+  .villagers-bg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3%;
+    width: 90vw;
+    background-color: var(--color2);
+    border-radius: 20%;
   }
 
   .animal {
     width: 20vw;
-    max-width: 200px;
+    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
+    max-width: 300px;
   }
 
   .animal-round {
@@ -75,10 +110,14 @@
 
   section {
     display: flex;
-    margin: 2%;
-    width: 70vw;
-    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
     flex-direction: row;
+  }
+
+  .personalized-name {
+    color: darkgreen;
+    font-weight: bold;
   }
 
   .isabelles-section {
@@ -90,11 +129,13 @@
     width: 60vw;
   }
 
-  .speech-bubble-text,
   .toms-text {
-    font-size: 15px;
-    width: 300px;
-    margin: 1%;
+    bottom: 20px;
+  }
+
+  .speech-bubble-text {
+    font-size: 16px;
+    width: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -109,89 +150,129 @@
   }
 
   .register-header {
-    padding-top: 14%;
-    font-size: 3rem;
-    padding-left: 25%;
+    margin: 5%;
+    font-size: 50px;
+    max-width: 800px;
   }
 
   .register-paragraph {
-    font-size: 1.5rem;
-    width: 60vw;
-    padding-left: 25%;
+    display: flex;
+    text-align: center;
+    padding: 1%;
+    max-width: 600px;
   }
 
   .register-info {
-    align-self: flex-start;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    height: 100vh;
+    justify-content: center;
+    margin: 1%;
+    max-height: 700px;
+    max-width: 660px;
+    padding: 1%;
+    width: 70vw;
   }
 
   .register-bg {
-    height: 150vh;
+    align-items: center;
+    background-image: url('/public/assets/img/pattern.png');
+    background-size: cover;
+    border-color: white;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 25px;
     display: flex;
-    background-image: url('/public/assets/img/sign-up-box.png');
     flex-direction: column;
-    background-size: 80% 80%;
-    width: 100vw;
-    background-position: center center;
-    background-repeat: no-repeat;
+    height: 700px;
     justify-content: center;
-    text-align: left;
+    margin: 7%;
+    max-width: 900px;
+    width: 80vw;
+    height: 100vh;
+    max-height: 900px;
   }
 
   form {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    padding: 1%;
+    max-width: 500px;
     margin: 1%;
-    padding-left: 20%;
-    font-size: 1.5rem;
+  }
+
+  .register-button {
+    align-self: center;
+    background-color: var(--baby-blue);
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: 0px 0px 5px 5px cornflowerblue;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    height: 50px;
+    margin: 3%;
+    width: 150px;
   }
 
   input {
     display: flex;
-    flex-direction: row;
-    font-size: 1.5rem;
-    margin: 1%;
+    align-self: center;
     border: none;
-    height: 4vh;
-    width: 40vw;
+    height: 5vh;
+    max-width: 800px;
+    font-size: 18px;
+    margin: 3%;
+    padding: 2%;
   }
 
-  button {
-    margin: 2%;
-    font-size: 1.5rem;
-    text-align: center;
-    width: 20vw;
-    border-radius: 30px;
-    cursor: pointer;
+  label {
+    position: relative;
+    right: 200px;
+    max-width: 500px;
+    top: 1px;
+    font-size: 25px;
+    font-weight: bolder;
   }
 
   .love-letter {
-    max-width: 800px;
+    max-width: 600px;
     align-self: center;
+  }
+  .love-letter-text {
+    display: flex;
+    width: 400px;
+    line-height: 2;
+    font-size: 25px;
   }
 
   .timmy-tommy {
     display: flex;
     align-self: center;
     width: 60vw;
-    max-width: 700px;
+    max-width: 400px;
     margin: 5%;
+  }
+
+  .bottom-border {
+    width: 100vw;
   }
 
   footer {
     display: flex;
-    padding-top: 20vh;
-    background-color: var(--color2);
+    background-color: var(--yellow);
     justify-content: center;
     flex-direction: column;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('/public/assets/img/bottom-box.png');
   }
 
   .footer-info-wrapper {
     display: flex;
-    font-size: 2rem;
+    font-size: 25px;
     flex-direction: column;
     align-self: left;
     padding-top: 8%;
@@ -201,8 +282,8 @@
   .happy-campers {
     position: relative;
     left: 300px;
-    width: 65vw;
-    max-width: 900px;
+    width: 60vw;
+    max-width: 800px;
   }
 
   .nintendo-online {
@@ -230,9 +311,10 @@
     display: flex;
     flex-direction: row;
     margin: 2%;
+    gap: 1rem;
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.5rem;
+    font-size: 20px;
   }
 
   .nb {

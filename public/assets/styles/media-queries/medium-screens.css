@@ -6,12 +6,14 @@
   }
 
   header {
+    width: 100vw;
     background-image: url('/public/assets/img/pattern.png');
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 5%;
+    padding: 2%;
   }
 
   .nintendo-logo {
@@ -27,36 +29,75 @@
   }
 
   .camp-wrapper {
+    justify-content: center;
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     position: relative;
   }
 
   .camp-img {
     display: flex;
+    border-style: solid;
+    border-width: 25px;
+    border-color: white;
     width: 100vw;
   }
 
   .camp-text {
     background-image: url('/public/assets/img/red-white-blue-letter.png');
     background-size: 100% 100%;
-    font-size: 2.5rem;
+    font-size: 35px;
     position: absolute;
     width: 50vw;
     padding: 4%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 15px;
+    border-radius: 5px;
+  }
+
+  .bg-gradient {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(
+      0deg,
+      var(--color1),
+      rgb(167, 210, 255),
+      var(--color2),
+      rgb(199, 255, 165),
+      rgb(181, 230, 181),
+      rgb(255, 162, 216)
+    );
+  }
+
+  .villagers-bg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    margin: 5%;
+    width: 90vw;
+    background-color: var(--color2);
+    border-radius: 130px;
   }
 
   .animal {
-    width: 25vw;
+    width: 20vw;
+    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
+    max-width: 300px;
   }
 
   .animal-round {
     display: none;
+  }
+
+  .personalized-name {
+    color: darkgreen;
+    font-weight: bold;
   }
 
   .text-on-img-wrapper {
@@ -65,9 +106,15 @@
   }
 
   section {
-    margin: 5%;
     display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 5%;
     flex-direction: row;
+  }
+
+  .toms-text {
+    bottom: 30px;
   }
 
   .isabelles-section {
@@ -83,7 +130,7 @@
     width: 55vw;
     margin: 1%;
     position: absolute;
-    top: 50%;
+    top: 51%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -96,114 +143,136 @@
     width: 100px;
   }
 
-  label,
-  button,
-  input {
-    margin: 1%;
-    width: 50vw;
-    font-size: 1.3rem;
-  }
-
   .register-header {
-    font-size: 2.2rem;
     margin: 2%;
-    display: flex;
-    justify-content: center;
+    font-size: 50px;
   }
 
   .register-paragraph {
-    font-size: 1.3rem;
     display: flex;
     text-align: center;
-    margin: 4%;
-  }
-
-  .form-alt-bg-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url('/public/assets/img/signupbox-phone.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    flex-direction: column;
+    padding: 2%;
   }
 
   .register-info {
-    padding-top: 5%;
+    background-color: white;
+    align-items: center;
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
     justify-content: center;
-    background-color: rgb(167, 210, 255);
-    border-radius: 50% 50%;
-    width: 50vw;
+    font-size: 18px;
+    width: 70vw;
+    height: 70vh;
     margin: 2%;
+    padding: 2%;
   }
 
-  .register-button {
-    align-self: center;
-    background-color: rgb(167, 210, 255);
-    box-shadow: 0px 0px 5px 5px rgb(101, 134, 169);
-    font-size: 0.9rem;
-    margin: 7vw;
-    width: 30vw;
-    height: 8vh;
-    font-size: 1.5rem;
-    border-radius: 30px;
-    cursor: pointer;
+  .register-bg {
+    border-style: solid;
+    width: 90vw;
+    border-radius: 15px;
+    border-width: 25px;
+    align-items: center;
+    border-color: white;
+    display: flex;
+    background-image: url('/public/assets/img/pattern.png');
+    background-size: cover;
+    flex-direction: column;
+    margin: 5%;
   }
 
   form {
     display: flex;
     flex-direction: column;
+    padding: 1%;
+    margin: 1%;
     text-align: left;
+    width: 550px;
+  }
+
+  .register-button {
+    align-self: center;
+    box-shadow: none;
+    border-style: none;
+    background-color: var(--baby-blue);
+    font-size: 20px;
+    margin: 2%;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bolder;
   }
 
   input {
+    display: flex;
+    align-self: center;
     border: none;
-    height: 4vh;
+    height: 5vh;
+    width: 50vw;
+    font-size: 18px;
     margin: 3%;
     padding: 2%;
   }
 
+  label {
+    position: relative;
+    left: 80px;
+    top: 6px;
+    font-weight: bolder;
+  }
+
   .love-letter {
-    max-width: 600px;
-    margin: 7%;
+    display: flex;
+    width: 550px;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+  }
+  .love-letter-text {
+    display: flex;
     align-self: center;
+    width: 310px;
+    line-height: 1.6;
+    font-size: 25px;
   }
 
   .timmy-tommy {
-    display: flex;
-    align-self: center;
-    width: 80vw;
-    max-width: 500px;
-    padding: 5%;
+    max-width: 400px;
+    margin: 5%;
+    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
+  }
+
+  .bottom-border {
+    width: 100vw;
+    position: relative;
+    top: 8px;
   }
 
   footer {
     display: flex;
-    padding-top: 20vh;
-    background-color: var(--color2);
+    background-color: var(--yellow);
     justify-content: center;
     flex-direction: column;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('/public/assets/img/bottom-box.png');
   }
 
   .footer-info-wrapper {
     display: flex;
-    font-size: 1.7rem;
+    font-size: 20px;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     align-self: center;
+    position: relative;
+    top: 20px;
+    right: 100px;
   }
 
   .happy-campers {
     display: flex;
     align-self: center;
-    margin: 5%;
-    width: 65vw;
+    margin: 1%;
+    width: 500px;
   }
 
   .nintendo-online {
@@ -231,14 +300,16 @@
     margin: 2%;
     display: flex;
     align-self: center;
-    font-size: 1rem;
+    font-size: 17px;
+    gap: 1em;
   }
 
   .nb {
     display: flex;
     margin: 2%;
+
     font-style: italic;
     align-self: center;
-    font-size: 0.9rem;
+    font-size: 10px;
   }
 }

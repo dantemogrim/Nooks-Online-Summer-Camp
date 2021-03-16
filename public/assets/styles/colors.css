@@ -2,31 +2,16 @@
   /* Site palette. */
   --color1: #a5ddc9;
   --color2: #77c6aa;
+  --yellow: #ffe7a0;
+  --baby-blue: rgb(167, 210, 255);
 }
-
-/* body {
-  background-color: var(--color2);
-} */
-
-/* header {
-  background-color: var(--color2);
-} */
 
 .camp-text {
   background-color: blanchedalmond;
 }
 
-/* main {
-  background-color: var(--color2);
-} */
-
 input {
   background-color: blanchedalmond;
-}
-
-.register-button {
-  background-color: var(--color2);
-  box-shadow: 0px 0px 5px 5px rgb(62, 151, 122);
 }
 
 a {
