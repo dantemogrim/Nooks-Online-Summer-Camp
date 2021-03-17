@@ -23,7 +23,7 @@
     padding: 5%;
   }
 
-  .nintendo-logo {
+  .nintendo-yellow {
     display: none;
   }
 
@@ -50,7 +50,7 @@
 
   .camp-text {
     align-self: center;
-    background-image: url('/public/assets/img/red-white-blue-letter.png');
+    background-image: url('/public/assets/img/letter-rwb.png');
     background-size: 100% 100%;
     border-radius: 10px;
     display: flex;
