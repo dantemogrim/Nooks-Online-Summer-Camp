@@ -54,7 +54,8 @@
     display: flex;
     align-self: center;
     width: 90vw;
-    height: 23vh;
+
+    height: 170px;
     font-size: 2rem;
     border-radius: 10px;
     text-align: center center;
@@ -85,6 +86,10 @@
     display: none;
   }
 
+  .toms-text {
+    bottom: 35px;
+  }
+
   .isabelle {
     display: none;
   }
@@ -99,7 +104,7 @@
   }
 
   .speech-bubble-text {
-    font-size: 0.8rem;
+    font-size: 13px;
     width: 75vw;
     margin: 1%;
     position: absolute;
@@ -113,7 +118,7 @@
   }
 
   .text-position {
-    bottom: 50px;
+    bottom: 60px;
   }
 
   .register-header {
