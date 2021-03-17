@@ -86,9 +86,9 @@
   }
 
   .animal {
-    width: 20vw;
     filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
-    max-width: 300px;
+    max-width: 250px;
+    height: auto;
   }
 
   .animal-round {
@@ -114,7 +114,7 @@
   }
 
   .toms-text {
-    bottom: 40px;
+    bottom: 20px;
   }
 
   .isabelles-section {
@@ -123,11 +123,12 @@
 
   .speech-bubble {
     width: 65vw;
+    max-width: 550px;
   }
 
   .speech-bubble-text {
-    font-size: 1.2rem;
-    width: 55vw;
+    font-size: 17px;
+    width: 430px;
     margin: 1%;
     position: absolute;
     top: 51%;
@@ -136,7 +137,7 @@
   }
 
   .text-position {
-    bottom: 80px;
+    bottom: 50px;
   }
 
   .nintendo-seal {
