@@ -234,10 +234,10 @@
 
   .nintendo-online {
     width: 50px;
+    height: auto;
   }
 
   .nintendo-seal {
-    display: flex;
     width: 50px;
     height: auto;
   }
