@@ -254,6 +254,7 @@
   .footer-logos {
     display: flex;
     justify-content: left;
+    padding-left: 2%;
   }
 
   a {

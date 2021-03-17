@@ -199,13 +199,19 @@
     background-color: var(--baby-blue);
     border-radius: 50px;
     border-style: none;
-    box-shadow: 0px 0px 5px 5px cornflowerblue;
+
     cursor: pointer;
     font-size: 20px;
     font-weight: bolder;
     height: 50px;
     margin: 3%;
     width: 150px;
+  }
+
+  .register-button:hover,
+  .register-button:focus {
+    box-shadow: 0px 0px 5px 5px cornflowerblue;
+    transition: box-shadow 200ms ease-in;
   }
 
   input {
