@@ -245,7 +245,6 @@
   .footer-logos {
     display: flex;
     margin: 1%;
-    position: relative;
     justify-content: space-evenly;
   }
 
