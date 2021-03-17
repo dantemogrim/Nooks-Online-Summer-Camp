@@ -9,7 +9,7 @@
     padding: 2%;
   }
 
-  .pattern-bg-img {
+  .header-bg-pattern {
     align-items: center;
     align-self: center;
     background-image: url('/public/assets/img/pattern.png');
