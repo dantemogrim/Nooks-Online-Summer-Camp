@@ -1,39 +1,39 @@
 @media screen and (max-width: 1023px) and (min-width: 561px) {
   .preload-animation {
-    width: 10vw;
     background-color: white;
     border-radius: 50%;
+    width: 10vw;
   }
 
   header {
-    width: 100vw;
+    align-items: center;
     background-image: url('/public/assets/img/pattern.png');
     background-size: cover;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     padding: 2%;
+    width: 100vw;
   }
 
   .nintendo-logo {
-    width: 100px;
     height: 30px;
+    width: 100px;
   }
 
   .animal-crossing-wordmark {
     display: flex;
+    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
     margin: 1%;
     width: 300px;
-    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
   }
 
   .camp-wrapper {
-    justify-content: center;
-    width: 100vw;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     position: relative;
+    width: 100vw;
   }
 
   .camp-img {
@@ -47,22 +47,18 @@
   .camp-text {
     background-image: url('/public/assets/img/red-white-blue-letter.png');
     background-size: 100% 100%;
-    font-size: 35px;
-    position: absolute;
-    width: 50vw;
-    padding: 4%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 5px;
+    font-size: 35px;
+    left: 50%;
+    padding: 4%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
   }
 
   .bg-gradient {
     align-items: center;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
     background: linear-gradient(
       0deg,
       var(--color1),
@@ -72,23 +68,16 @@
       rgb(181, 230, 181),
       rgb(255, 162, 216)
     );
-  }
-
-  .villagers-bg {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    padding: 2%;
-    margin: 5%;
-    width: 90vw;
-    background-color: var(--color2);
-    border-radius: 130px;
+    justify-content: center;
+    text-align: center;
   }
 
   .animal {
     filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
-    max-width: 250px;
     height: auto;
+    max-width: 250px;
   }
 
   .animal-round {
@@ -107,10 +96,10 @@
 
   section {
     display: flex;
-    justify-content: center;
-    width: 100vw;
-    padding: 5%;
     flex-direction: row;
+    justify-content: center;
+    padding: 5%;
+    width: 100vw;
   }
 
   .toms-text {
@@ -122,151 +111,127 @@
   }
 
   .speech-bubble {
-    width: 65vw;
-    max-width: 550px;
+    width: 445px;
   }
 
   .speech-bubble-text {
-    font-size: 17px;
-    width: 430px;
+    font-size: 15px;
+    left: 50%;
     margin: 1%;
     position: absolute;
     top: 51%;
-    left: 50%;
     transform: translate(-50%, -50%);
+    width: 380px;
   }
 
   .text-position {
     bottom: 50px;
   }
 
-  .nintendo-seal {
-    width: 100px;
-  }
-
   .register-header {
+    font-size: 40px;
     margin: 2%;
-    font-size: 50px;
   }
 
   .register-paragraph {
     display: flex;
-    text-align: center;
     padding: 2%;
+    text-align: center;
   }
 
   .register-info {
-    background-color: white;
     align-items: center;
+    background-color: white;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
+    font-size: 17px;
+    height: 80vh;
     justify-content: center;
-    font-size: 18px;
-    width: 70vw;
-    height: 70vh;
     margin: 2%;
+    max-width: 800px;
+    object-fit: contain;
     padding: 2%;
+    width: 65vw;
   }
 
   .register-bg {
-    border-style: solid;
-    width: 90vw;
-    border-radius: 15px;
-    border-width: 25px;
     align-items: center;
-    border-color: white;
-    display: flex;
     background-image: url('/public/assets/img/pattern.png');
     background-size: cover;
+    border-color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 25px;
+    display: flex;
     flex-direction: column;
     margin: 5%;
+    width: 80vw;
   }
 
   form {
     display: flex;
     flex-direction: column;
-    padding: 1%;
     margin: 1%;
+    padding: 1%;
     text-align: left;
     width: 550px;
   }
 
   .register-button {
     align-self: center;
-    box-shadow: none;
-    border-style: none;
     background-color: var(--baby-blue);
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: none;
+    cursor: pointer;
     font-size: 20px;
+    font-weight: bolder;
+    height: 50px;
     margin: 2%;
     width: 150px;
-    height: 50px;
-    border-radius: 50px;
-    cursor: pointer;
-    font-weight: bolder;
   }
 
   input {
-    display: flex;
     align-self: center;
     border: none;
-    height: 5vh;
-    width: 50vw;
+    display: flex;
     font-size: 18px;
+    height: 5vh;
     margin: 3%;
     padding: 2%;
+    width: 50vw;
   }
 
   label {
-    position: relative;
-    left: 80px;
-    top: 6px;
     font-weight: bolder;
-  }
-
-  .love-letter {
-    display: flex;
-    width: 550px;
-    padding: 1%;
-    margin: 1%;
-    text-align: center;
-  }
-  .love-letter-text {
-    display: flex;
-    align-self: center;
-    width: 310px;
-    line-height: 1.6;
-    font-size: 25px;
-  }
-
-  .timmy-tommy {
-    max-width: 400px;
-    margin: 5%;
-    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
+    left: 80px;
+    position: relative;
+    top: 6px;
   }
 
   .bottom-border {
-    width: 100vw;
     position: relative;
     top: 8px;
+    width: 100vw;
   }
 
   footer {
-    display: flex;
     background-color: var(--yellow);
-    justify-content: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .footer-info-wrapper {
-    display: flex;
-    font-size: 20px;
-    flex-direction: column;
-    text-align: left;
     align-self: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
     position: relative;
-    top: 20px;
     right: 100px;
+    text-align: left;
+    top: 20px;
   }
 
   .happy-campers {
@@ -277,14 +242,13 @@
   }
 
   .nintendo-online {
-    width: 13vw;
     padding: 2%;
+    width: 100px;
   }
 
   .nintendo-seal {
-    display: flex;
-    width: 13vw;
     padding: 2%;
+    width: 100px;
   }
 
   .footer-logos {
@@ -298,19 +262,18 @@
   }
 
   .creators {
-    margin: 2%;
-    display: flex;
     align-self: center;
+    display: flex;
     font-size: 17px;
     gap: 0.5em;
+    margin: 2%;
   }
 
   .nb {
-    display: flex;
-    margin: 2%;
-
-    font-style: italic;
     align-self: center;
+    display: flex;
     font-size: 10px;
+    font-style: italic;
+    margin: 2%;
   }
 }

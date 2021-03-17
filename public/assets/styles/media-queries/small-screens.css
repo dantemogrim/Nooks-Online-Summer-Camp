@@ -1,8 +1,8 @@
 @media screen and (max-width: 560px) and (min-width: 0px) {
   .preload-animation {
-    width: 50vw;
     background-color: white;
     border-radius: 50%;
+    width: 50vw;
   }
 
   .bg-gradient {
@@ -29,8 +29,8 @@
 
   .animal-crossing-wordmark {
     display: flex;
-    width: 70vw;
     filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
+    width: 200px;
   }
 
   .camp-wrapper {
@@ -40,27 +40,26 @@
   }
 
   .camp-img {
-    display: flex;
     align-self: center;
-    width: 100%;
+    border-color: white;
     border-style: solid;
     border-width: 19px;
-    border-color: white;
+    display: flex;
+    width: 100%;
   }
 
   .camp-text {
+    align-self: center;
     background-image: url('/public/assets/img/red-white-blue-letter.png');
     background-size: 100% 100%;
-    display: flex;
-    align-self: center;
-    width: 90vw;
-
-    height: 170px;
-    font-size: 2rem;
     border-radius: 10px;
-    text-align: center center;
+    display: flex;
+    font-size: 2rem;
+    height: 170px;
     margin: 5%;
     padding: 6%;
+    text-align: center center;
+    width: 90vw;
   }
 
   .text-on-img-wrapper {
@@ -70,16 +69,16 @@
 
   section {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     margin: 5%;
   }
 
   .animal-round {
-    display: flex;
     align-self: center;
-    width: 200px;
+    display: flex;
     filter: drop-shadow(7px 7px 7px rgb(48, 83, 64));
+    width: 200px;
   }
 
   .tom {
@@ -105,12 +104,12 @@
 
   .speech-bubble-text {
     font-size: 13px;
-    width: 75vw;
+    left: 50%;
     margin: 1%;
     position: absolute;
     top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
+    width: 75vw;
   }
 
   .speech-bubble {
@@ -127,38 +126,38 @@
 
   .register-paragraph {
     display: flex;
-    text-align: center;
     padding: 2%;
+    text-align: center;
   }
 
   .register-info {
-    background-color: white;
     align-items: center;
+    background-color: white;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
     justify-content: center;
-    width: 80vw;
     margin: 5%;
     padding: 5%;
+    width: 80vw;
   }
 
   .register-bg {
-    border-style: solid;
-    border-width: 10px;
     align-items: center;
-    border-color: white;
-    display: flex;
     background-image: url('/public/assets/img/pattern.png');
     background-size: cover;
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+    display: flex;
     flex-direction: column;
   }
 
   form {
     display: flex;
     flex-direction: column;
-    padding: 1%;
     margin: 1%;
+    padding: 1%;
     text-align: left;
     width: 72vw;
   }
@@ -166,34 +165,23 @@
   .register-button {
     align-self: center;
     background-color: var(--baby-blue);
-    box-shadow: none;
-    font-weight: bold;
+    border-radius: 50px;
     border-style: none;
+    box-shadow: none;
+    cursor: pointer;
     font-size: 1rem;
+    font-weight: bold;
+    height: 50px;
     margin: 7vw;
     width: 150px;
-    height: 50px;
-    border-radius: 50px;
-    cursor: pointer;
   }
 
   input {
     border: none;
+    font-size: 0.9rem;
     height: 5vh;
     margin: 3%;
-    font-size: 0.9rem;
     padding: 2%;
-  }
-
-  .love-letter {
-    width: 90vw;
-    margin: 6%;
-  }
-
-  .timmy-tommy {
-    max-width: 300px;
-    margin: 5%;
-    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
   }
 
   .bottom-border {
@@ -203,49 +191,49 @@
 
   label {
     font-weight: bold;
-    position: relative;
     left: 10px;
+    position: relative;
     top: 1px;
   }
 
   footer {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
     background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .footer-info-wrapper {
+    align-self: center;
     display: flex;
     flex-direction: column;
-    width: 90vw;
     font-size: 13px;
-    align-self: center;
     line-height: 1.3;
+    width: 90vw;
   }
 
   .happy-campers {
-    display: flex;
     align-self: center;
-    width: 300px;
+    display: flex;
     margin: 2%;
     position: relative;
+    width: 300px;
   }
 
   .nintendo-online {
-    width: 50px;
     height: auto;
+    width: 50px;
   }
 
   .nintendo-seal {
-    width: 50px;
     height: auto;
+    width: 50px;
   }
 
   .footer-logos {
     display: flex;
-    margin: 1%;
     justify-content: space-evenly;
+    margin: 1%;
   }
 
   a {
@@ -253,20 +241,20 @@
   }
 
   .creators {
-    display: flex;
     align-self: center;
+    display: flex;
     font-size: 0.9rem;
     gap: 0.5em;
-    position: relative;
     margin: 2%;
+    position: relative;
   }
 
   .nb {
+    align-self: center;
     display: flex;
+    font-size: 7px;
+    font-style: italic;
     margin: 2%;
     position: relative;
-    font-style: italic;
-    align-self: center;
-    font-size: 7px;
   }
 }

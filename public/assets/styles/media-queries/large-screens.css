@@ -1,8 +1,8 @@
 @media screen and (min-width: 1024px) {
   .preload-animation {
-    width: 10vw;
     background-color: white;
     border-radius: 50%;
+    width: 10vw;
   }
 
   header {
@@ -10,59 +10,59 @@
   }
 
   .pattern-bg-img {
-    width: 100vw;
-    display: flex;
-    align-self: center;
     align-items: center;
-    justify-content: center;
+    align-self: center;
     background-image: url('/public/assets/img/pattern.png');
     background-size: cover;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 100vw;
   }
 
   .nintendo-logo {
-    width: 150px;
     margin: 1%;
+    width: 150px;
   }
 
   .animal-crossing-wordmark {
     display: flex;
+    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
     margin: 1%;
     width: 300px;
-    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
   }
 
   .camp-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: auto;
+    justify-content: center;
     width: 100vw;
   }
 
   .camp-img {
-    display: flex;
-    width: 100vw;
-    object-fit: cover;
-    max-height: 600px;
-    border-style: solid;
     border-color: white;
+    border-style: solid;
     border-width: 50px;
+    display: flex;
+    max-height: 600px;
+    object-fit: cover;
+    width: 100vw;
   }
 
   .camp-text {
     background-image: url('/public/assets/img/red-white-blue-letter.png');
-    background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 4px;
     font-size: 3.2rem;
-    position: relative;
-    width: 60vw;
+    left: 50%;
     max-width: 700px;
     padding: 5%;
+    position: relative;
     top: 50%;
-    left: 50%;
     transform: translate(-50%, -30%);
-    border-radius: 4px;
+    width: 60vw;
   }
 
   .bg-gradient {
@@ -77,20 +77,10 @@
     );
   }
 
-  .villagers-bg {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 3%;
-    width: 90vw;
-    background-color: var(--color2);
-    border-radius: 20%;
-  }
-
   .animal {
-    width: 20vw;
     filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
     max-width: 300px;
+    width: 20vw;
   }
 
   .animal-round {
@@ -103,17 +93,17 @@
   }
 
   .bg-gradient {
-    display: flex;
     align-items: center;
+    display: flex;
     flex-direction: column;
   }
 
   section {
     display: flex;
-    justify-content: center;
-    width: 100vw;
-    padding: 1%;
     flex-direction: row;
+    justify-content: center;
+    padding: 1%;
+    width: 100vw;
   }
 
   .personalized-name {
@@ -131,36 +121,36 @@
   }
 
   .toms-text {
-    bottom: 70px;
+    bottom: 6px;
   }
 
   .speech-bubble-text {
-    font-size: 16px;
-    width: 400px;
+    font-size: 17px;
+    left: 50%;
     position: absolute;
     top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
+    width: 420px;
   }
 
   .text-position {
+    bottom: 70px;
     display: flex;
-    width: 300px;
-    font-size: 15px;
-    bottom: 100px;
+    font-size: 17px;
+    width: 420px;
   }
 
   .register-header {
-    margin: 5%;
     font-size: 50px;
+    margin: 5%;
     max-width: 800px;
   }
 
   .register-paragraph {
     display: flex;
-    text-align: center;
-    padding: 1%;
     max-width: 600px;
+    padding: 1%;
+    text-align: center;
   }
 
   .register-info {
@@ -174,6 +164,7 @@
     margin: 1%;
     max-height: 750px;
     max-width: 660px;
+    object-fit: contain;
     padding: 1%;
   }
 
@@ -190,17 +181,17 @@
     height: 700px;
     justify-content: center;
     margin: 7%;
+    max-height: 900px;
     max-width: 900px;
     width: 80vw;
-    max-height: 900px;
   }
 
   form {
     display: flex;
     flex-direction: column;
-    padding: 1%;
-    max-width: 500px;
     margin: 1%;
+    max-width: 500px;
+    padding: 1%;
   }
 
   .register-button {
@@ -209,7 +200,6 @@
     border-radius: 50px;
     border-style: none;
     box-shadow: 0px 0px 5px 5px cornflowerblue;
-    box-shadow: none;
     cursor: pointer;
     font-size: 20px;
     font-weight: bolder;
@@ -219,42 +209,23 @@
   }
 
   input {
-    display: flex;
     align-self: center;
     border: none;
-    height: 5vh;
-    max-width: 800px;
+    display: flex;
     font-size: 18px;
+    height: 5vh;
     margin: 3%;
+    max-width: 800px;
     padding: 2%;
   }
 
   label {
-    position: relative;
-    right: 200px;
-    max-width: 500px;
-    top: 1px;
     font-size: 25px;
     font-weight: bolder;
-  }
-
-  .love-letter {
-    max-width: 600px;
-    align-self: center;
-  }
-  .love-letter-text {
-    display: flex;
-    width: 400px;
-    line-height: 2;
-    font-size: 25px;
-  }
-
-  .timmy-tommy {
-    display: flex;
-    align-self: center;
-    width: 60vw;
-    max-width: 400px;
-    margin: 5%;
+    max-width: 500px;
+    position: relative;
+    right: 200px;
+    top: 1px;
   }
 
   .bottom-border {
@@ -262,38 +233,38 @@
   }
 
   footer {
-    display: flex;
     background-color: var(--yellow);
-    justify-content: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .footer-info-wrapper {
-    display: flex;
-    font-size: 25px;
-    flex-direction: column;
     align-self: left;
-    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
     padding-left: 8%;
+    padding-top: 8%;
   }
 
   .happy-campers {
-    position: relative;
     left: 300px;
-    width: 60vw;
     max-width: 800px;
+    position: relative;
+    width: 60vw;
   }
 
   .nintendo-online {
-    width: 100px;
     height: 100px;
     margin: 2%;
+    width: 100px;
   }
 
   .nintendo-seal {
-    width: 100px;
     height: 100px;
     margin: 2%;
+    width: 100px;
   }
 
   .footer-logos {
@@ -308,19 +279,19 @@
 
   .creators {
     display: flex;
-    flex-direction: row;
-    margin: 2%;
-    gap: 1rem;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
     font-size: 20px;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin: 2%;
   }
 
   .nb {
-    display: flex;
-    margin: 2%;
-    font-style: italic;
     align-self: center;
+    display: flex;
     font-size: 12px;
+    font-style: italic;
+    margin: 2%;
   }
 }
