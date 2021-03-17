@@ -1,11 +1,11 @@
 import anime from 'animejs/lib/anime.es.js';
 
 // Spinning leaf.
-const preloadAnimation = document.querySelector('.preload-animation');
+const preloadAnimation = document.querySelector('.preload-logo-animation');
 
 preloadAnimation.addEventListener('load', () => {
   anime({
-    targets: '.preload-animation',
+    targets: '.preload-logo-animation',
     rotate: '3turn',
     backgroundColor: '',
     duration: 10000,

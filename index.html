@@ -22,7 +22,12 @@
 <meta property="twitter:title" content="Nook's Online Summer Camp">
 <meta property="twitter:description" content="Don't miss out on the grand event this summer. Make new friends and memories at Nintendo's secret island. RSVP today!">
 <meta property="twitter:image" content="">
+<link
+href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+rel="stylesheet"
+/>
     <link rel="stylesheet" href="/public/assets/styles/colors.css" />
+    <link rel="stylesheet" href="/public/assets/styles/confetti.css" />
     <link rel="stylesheet" href="/public/assets/styles/fonts.css" />
     <link rel="stylesheet" href="/public/assets/styles/main.css" />
     <link rel="stylesheet" href="/public/assets/styles/hover.css" />
@@ -38,25 +43,23 @@
       rel="stylesheet"
       href="/public/assets/styles/media-queries/small-screens.css"
     />
-    <link rel="stylesheet" href="/public/assets/styles/preload.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="/public/assets/styles/preloader.css" />
+
     <link rel="stylesheet" href="public/assets/styles/keyframes.css" />
   </head>
   <body>
-    <!-- Preloader animation. -->
-    <div class="preload">
-      <img
-        class="preload-animation"
-        src="public/assets/img/leaf.png"
-        alt="Animal Crossing's official logo. A green leaf with a small, round hole in it."
-        loading="lazy"
-      />
+      <!-- Preloader animation. -->
+      <div class="preload">
+        <img
+          class="preload-logo-animation"
+          src="public/assets/img/leaf.png"
+          alt="Animal Crossing's official logo. A green leaf with a small, round hole in it."
+          loading="lazy"
+        />
       <h2>Nintendo proudly presents..</h2>
     </div>
     <header class="header-bg-pattern">
+      <div class="confetti-container container"></div>
       <img
         class="nintendo-yellow"
         src="public/assets/img/nintendo-yellow.png"
@@ -87,6 +90,7 @@
             Nook's Online Summer Camp!
           </h1>
         </div>
+
         <!-- Tom. -->
         <section class="">
           <img
@@ -174,7 +178,6 @@
             </span>
           </div>
         </section>
-
         <!-- Form. -->
         <div class="register-bg">
           <div class="register-info">
@@ -203,7 +206,7 @@
                   placeholder="+81-123456789"
                 />
               <br />
-                <button class="register-button" type="submit">Register</button>
+                <button id="user-confirmation" class="register-button" type="submit">Register</button>
             </form>
 
         </div>
@@ -246,9 +249,10 @@
         not own any of the copyright material.
       </p>
     </footer>
+    <script src="public/assets/scripts/confetti.js"></script>
     <script src="public/assets/scripts/index.js"></script>
-    <script src="public/assets/scripts/preload.js"></script>
     <script src="public/assets/scripts/playground.js"></script>
+    <script src="public/assets/scripts/preloader.js"></script>
     <script src="public/assets/scripts/queryParameters.js"></script>
   </body>
 </html>

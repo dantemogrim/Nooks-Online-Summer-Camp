@@ -4,7 +4,8 @@
 }
 
 * {
-  font-family: 'Fink Heavy Medium', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Fink Heavy Medium', Arial, Verdana, 'Courier New', Helvetica,
+    sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');

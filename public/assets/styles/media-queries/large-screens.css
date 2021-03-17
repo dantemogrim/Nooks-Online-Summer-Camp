@@ -1,5 +1,5 @@
 @media screen and (min-width: 1024px) {
-  .preload-animation {
+  .preload-logo-animation {
     background-color: white;
     border-radius: 50%;
     width: 10vw;
@@ -274,6 +274,7 @@
   .footer-logos {
     display: flex;
     justify-content: left;
+    padding-left: 2%;
   }
 
   a {
