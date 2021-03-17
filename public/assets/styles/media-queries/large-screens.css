@@ -245,7 +245,7 @@
     flex-direction: column;
     font-size: 25px;
     padding-left: 8%;
-    padding-top: 8%;
+    padding-top: 6%;
   }
 
   .happy-campers {
@@ -256,21 +256,18 @@
   }
 
   .nintendo-red {
-    height: 100px;
-    margin: 2%;
+    height: auto;
     width: 100px;
   }
 
   .nintendo-seal {
-    height: 100px;
-    margin: 2%;
+    height: auto;
     width: 100px;
   }
 
   .footer-logos {
     display: flex;
     justify-content: left;
-    padding: 2%;
   }
 
   a {

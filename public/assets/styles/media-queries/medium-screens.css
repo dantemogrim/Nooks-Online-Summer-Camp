@@ -231,7 +231,7 @@
     position: relative;
     right: 100px;
     text-align: left;
-    top: 20px;
+    top: 30px;
   }
 
   .happy-campers {
@@ -242,19 +242,18 @@
   }
 
   .nintendo-red {
-    padding: 2%;
+    height: auto;
     width: 100px;
   }
 
   .nintendo-seal {
-    padding: 2%;
+    height: auto;
     width: 100px;
   }
 
   .footer-logos {
     display: flex;
     justify-content: left;
-    padding: 3%;
   }
 
   a {
