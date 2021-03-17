@@ -238,23 +238,17 @@
     display: flex;
     align-self: center;
     margin: 1%;
-    width: 500px;
+    width: 400px;
   }
 
   .nintendo-red {
-    height: auto;
-    width: 100px;
+    height: 70px;
+    width: 70px;
   }
 
   .nintendo-seal {
-    height: auto;
-    width: 100px;
-  }
-
-  .footer-logos {
-    display: flex;
-    justify-content: left;
-    padding-left: 2%;
+    height: 70px;
+    width: 70px;
   }
 
   a {

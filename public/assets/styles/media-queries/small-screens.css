@@ -219,24 +219,19 @@
   .happy-campers {
     align-self: center;
     display: flex;
-    margin: 2%;
+    margin: 1%;
     position: relative;
-    width: 300px;
+    width: 200px;
   }
 
   .nintendo-red {
-    height: auto;
+    height: 50px;
     width: 50px;
   }
 
   .nintendo-seal {
-    height: auto;
+    height: 50px;
     width: 50px;
-  }
-
-  .footer-logos {
-    display: flex;
-    justify-content: space-evenly;
   }
 
   a {
