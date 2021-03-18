@@ -70,3 +70,19 @@ By [Person 3](https://github.com/mogrim-91)
 ## :blue_car: License
 
 [MIT](https://en.wikipedia.org/wiki/MIT_License)
+
+## Feedback -Joakim Sjögren
+
+* Great structure with the files!
+
+* preloader.js #5, Index.js #5: You have added eventlisteners but not added anything in them.
+
+* Well done with adding comments throughout the project, makes it easy to understand.
+
+* You have some images that go out of frame. There for, a horizontal scrollbar at the bottom appears.
+Maybe you can solve this by using: (overflow-x: hidden).
+
+* index.html #113: I would have used a p tag here instead of a span. 
+but i would have kept the span tag on line #114. 
+
+* Great job! :)
