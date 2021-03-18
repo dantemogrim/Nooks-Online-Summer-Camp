@@ -28,39 +28,39 @@ We are thinking K.K. will be there to throw a concert and a selected few will re
 
 </details>
 
-## :octocat: Instructions
-
-_Opt 1:_ See the project hosted live on [this link](https://nooks-online-summer-camp.netlify.app/).
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cafdded0-d687-45e1-9e15-568bd5528825/deploy-status)](https://app.netlify.com/sites/event-invitation/deploys)
 
-_Opt 2:_
+## :octocat: Instructions
+
+_Option 1 - The fun way:_ Use the following image's QR code to access the project and see the url query parameters in action:
+<img src="/assets/img/leifs-invite.png">
+
+_Option 2 - The easy way:_ See the project hosted live on [this link](https://nooks-online-summer-camp.netlify.app/).
 
 1. Clone the repository onto your computer.
 2. Open your terminal and `cd` into the root folder.
 3. In your CLI type: `npx parcel index.html`.
 4. Open up your browser and write the name of the localhost that your CLI started through the previous step. You should be able to access the project from there.
 
-## :computer: Testers
-
-- [Person 1](https://github.com/mogrim-91)
-- [Person 2](https://github.com/mogrim-91)
+_Option 3 - The trickier way:_
 
 ## :mag: Code Review
 
-By [Person 3](https://github.com/mogrim-91)
+By [Joakim Sjögren](https://github.com/JoakimSjogren):
 
-- [ ] **style.css:L3**This
-- [ ] **index.php:L54** This thing
-- [ ] Third
-- [ ] Fourth
-- [ ] Fifth
-- [ ] Sixth
-- [ ] Seventh
-- [ ] Eighth
-- [ ] Ninth
-- [ ] Tenth
-  > "Comment" - Person 3
+- Great structure with the files!
+
+- preloader.js #5, Index.js #5: You have added eventlisteners but not added anything in them.
+
+- Well done with adding comments throughout the project, makes it easy to understand.
+
+- You have some images that go out of frame. There for, a horizontal scrollbar at the bottom appears.
+  Maybe you can solve this by using: (overflow-x: hidden).
+
+- index.html #113: I would have used a p tag here instead of a span.
+  but i would have kept the span tag on line #114.
+
+> Great job! :)
 
 ## :man_technologist: Creators
 
@@ -70,19 +70,3 @@ By [Person 3](https://github.com/mogrim-91)
 ## :blue_car: License
 
 [MIT](https://en.wikipedia.org/wiki/MIT_License)
-
-## Feedback -Joakim Sjögren
-
-* Great structure with the files!
-
-* preloader.js #5, Index.js #5: You have added eventlisteners but not added anything in them.
-
-* Well done with adding comments throughout the project, makes it easy to understand.
-
-* You have some images that go out of frame. There for, a horizontal scrollbar at the bottom appears.
-Maybe you can solve this by using: (overflow-x: hidden).
-
-* index.html #113: I would have used a p tag here instead of a span. 
-but i would have kept the span tag on line #114. 
-
-* Great job! :)
