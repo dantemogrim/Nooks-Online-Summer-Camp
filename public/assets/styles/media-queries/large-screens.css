@@ -275,6 +275,7 @@
     display: flex;
     justify-content: left;
     padding-left: 2%;
+    margin: 2%;
   }
 
   a {

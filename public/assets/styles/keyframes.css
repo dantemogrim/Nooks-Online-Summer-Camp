@@ -14,3 +14,22 @@
     transform: rotate(-10deg);
   }
 }
+
+.isabelle,
+.tom,
+.mabel,
+.animal-round {
+  position: relative;
+  animation: move 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move {
+  0% {
+    top: -5px;
+  }
+
+  100% {
+    top: 5px;
+  }
+}

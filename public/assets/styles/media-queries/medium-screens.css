@@ -254,6 +254,11 @@
     text-decoration: none;
   }
 
+  .footer-logos {
+    padding-left: 2%;
+    margin: 1%;
+  }
+
   .creators {
     align-self: center;
     display: flex;
