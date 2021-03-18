@@ -2,7 +2,7 @@
   .preload-logo-animation {
     background-color: white;
     border-radius: 50%;
-    width: 10vw;
+    width: 250px;
   }
 
   header {
@@ -17,15 +17,15 @@
   }
 
   .nintendo-yellow {
-    height: 30px;
+    height: auto;
     width: 100px;
   }
 
   .animal-crossing-wordmark {
     display: flex;
-    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
     margin: 1%;
     width: 300px;
+    height: auto;
   }
 
   .camp-wrapper {
@@ -75,7 +75,6 @@
   }
 
   .animal {
-    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
     height: auto;
     max-width: 250px;
   }

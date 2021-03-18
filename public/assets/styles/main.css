@@ -29,3 +29,13 @@ main {
   box-shadow: -10px -15px 25px pink, 10px 0px 0px var(--yellow);
   background-repeat: repeat-x;
 }
+
+.dante:hover {
+  background: var(--baby-blue);
+  border-radius: 30px;
+}
+
+.josefin:hover {
+  background: var(--color1);
+  border-radius: 30px;
+}

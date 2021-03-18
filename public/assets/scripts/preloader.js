@@ -1,20 +1,12 @@
-import anime from 'animejs/lib/anime.es.js';
-
+'use strict';
 // Spinning leaf.
 const preloadAnimation = document.querySelector('.preload-logo-animation');
 
-preloadAnimation.addEventListener('load', () => {
-  anime({
-    targets: '.preload-logo-animation',
-    rotate: '3turn',
-    backgroundColor: '',
-    duration: 10000,
-    loop: true,
-  });
-});
+preloadAnimation.addEventListener('load', () => {});
 
 // Fade out.
 window.addEventListener('load', () => {
   const preload = document.querySelector('.preload');
+
   preload.classList.add('preload-complete');
 });

@@ -2,7 +2,7 @@
   .preload-logo-animation {
     background-color: white;
     border-radius: 50%;
-    width: 50vw;
+    width: 200px;
   }
 
   .bg-gradient {
@@ -29,8 +29,8 @@
 
   .animal-crossing-wordmark {
     display: flex;
-    filter: drop-shadow(5px 5px 5px rgb(48, 48, 48));
     width: 200px;
+    height: auto;
   }
 
   .camp-wrapper {
@@ -77,7 +77,6 @@
   .animal-round {
     align-self: center;
     display: flex;
-    filter: drop-shadow(7px 7px 7px rgb(48, 83, 64));
     width: 200px;
   }
 
@@ -181,8 +180,8 @@
 
   input {
     border: none;
-    font-size: 0.9rem;
-    height: 5vh;
+    font-size: 15px;
+    height: 40px;
     margin: 3%;
     padding: 2%;
   }
@@ -193,7 +192,8 @@
   }
 
   label {
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 15px;
     left: 10px;
     position: relative;
     top: 1px;
@@ -246,7 +246,7 @@
   .creators {
     align-self: center;
     display: flex;
-    font-size: 0.9rem;
+    font-size: 13px;
     gap: 0.5em;
     margin: 2%;
     position: relative;

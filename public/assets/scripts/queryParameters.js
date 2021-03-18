@@ -1,3 +1,4 @@
+'use strict';
 // Personalized greeting.
 
 let urlParams = new URLSearchParams(window.location.search);

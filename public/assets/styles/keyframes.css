@@ -14,20 +14,3 @@
     transform: rotate(-10deg);
   }
 }
-
-main {
-  animation-duration: 5s;
-  animation-name: background-gradient;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes background-gradient {
-  from {
-    background: linear-gradient(-10deg, var(--color2), var(--color1));
-  }
-
-  to {
-    background: linear-gradient(10deg, var(--color2), var(--color1));
-  }
-}
