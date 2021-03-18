@@ -26,6 +26,6 @@ main {
   background-color: pink;
   -webkit-box-shadow: ;
   -moz-box-shadow: ;
-  box-shadow: 10px -5px 20px 12px pink;
+  box-shadow: -10px -15px 25px pink, 10px 0px 0px var(--yellow);
   background-repeat: repeat-x;
 }
