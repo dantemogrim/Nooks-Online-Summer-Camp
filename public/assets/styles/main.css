@@ -22,13 +22,12 @@ main {
   flex-direction: row;
   background: url('/public/assets/img/circle.svg'); */
   height: 50px;
-  background-size: 70px 50px;
+  /* background-size: 70px 50px; */
   width: 100vw;
   background-color: pink;
-  position: relative;
+  /* position: relative; */
   bottom: -1px;
   box-shadow: -5px -20px 20px pink;
-  background-repeat: repeat-x;
 }
 
 .dante:hover {
