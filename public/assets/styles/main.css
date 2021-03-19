@@ -2,12 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 main {
@@ -18,9 +18,9 @@ main {
 }
 
 .yellow-circle-border {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  background: url('/public/assets/img/circle.svg');
+  background: url('/public/assets/img/circle.svg'); */
   height: 50px;
   background-size: 70px 50px;
   width: 100vw;
