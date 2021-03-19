@@ -10,6 +10,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
+.camp-text {
+  font-family: 'Fink Heavy Medium', Arial, sans-serif;
+}
+
 .sign-up-explanation,
 .personalized-name,
 p,
