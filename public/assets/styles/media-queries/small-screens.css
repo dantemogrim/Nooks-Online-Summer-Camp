@@ -204,7 +204,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    overflow-y: hidden;
   }
 
   .footer-email-phone-text {
