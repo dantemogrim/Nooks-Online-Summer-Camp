@@ -63,7 +63,7 @@ By [Joakim Sjögren](https://github.com/JoakimSjogren):
 
 ## :man_technologist: Creators
 
-- [Dante Mogrim](https://github.com/mogrim-91)
+- [Dante Mogrim](https://github.com/dantemogrim)
 - [Josefin Eldh (IP20)](https://josefineldh.com)
 
 ## :blue_car: License
